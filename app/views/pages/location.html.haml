@@ -1,0 +1,26 @@
+.container-fluid
+  =render '/shared/header'
+
+  .row  
+    .col-md-12
+      .ul.navvy
+        %li
+          %a{:href => "/"}
+            HOME
+        %li
+          %a{:href => "/features"}
+            FEATURES
+        %li
+          %a{:href => "/plans"}
+            FLOORPLANS
+        %li.active
+          %a{:href => "/location"}
+            LOCATION
+        %li
+          %a{:href => "/site-plan"}
+            SITE PLAN
+        %li
+          %a{:href => "/contact"}
+            CONTACT US
+          
+  .row

@@ -1,0 +1,77 @@
+.container
+  =render '/shared/header'
+
+  .row  
+    .col-md-12
+      .ul.navvy
+        %li.active
+          %a{:href => "/"}
+            HOME
+        %li
+          %a{:href => "/features"}
+            FEATURES
+        %li
+          %a{:href => "/plans"}
+            FLOORPLANS
+        %li
+          %a{:href => "/location"}
+            LOCATION
+        %li
+          %a{:href => "/site-plan"}
+            SITE PLAN
+        %li
+          %a{:href => "/contact"}
+            CONTACT US
+          
+  .row.shim-top.small
+    .span8
+      Bacon ipsum dolor amet tail strip steak meatball flank porchetta tri-tip corned beef t-bone prosciutto filet mignon bresaola frankfurter doner. Boudin brisket turkey venison shank alcatra rump drumstick pancetta bresaola spare ribs meatball frankfurter tail tongue. Short loin biltong jowl pork belly short ribs cupim pork loin swine picanha fatback chicken kevin turducken salami leberkas. Jowl strip steak chuck, alcatra cupim pig corned beef meatloaf jerky beef drumstick shoulder pastrami porchetta bacon. Jerky tail drumstick boudin. Corned beef pork belly hamburger flank fatback, ham hock tri-tip prosciutto rump andouille cow cupim. Pork loin kevin fatback drumstick shankle.
+    .span3
+      
+      =image_tag("mottoimage", class:"motto")
+      .email
+        Join our mailing list:
+        %input{type:"text"}
+        %button{class:"email-button"}
+          Join
+
+  .row.middle
+    .span2
+      =image_tag("priceimage.png", class:"price")
+      
+    .span3.shim-left.small
+      %p.shim-top.med
+        Serenity offers the quality you expect in a Treetop Residential home in beautifully impressive settings - a place where you can embrace each moment!
+    .span3
+      %p.shim-top.med
+        Serenity is:
+        %ul
+          %li Luxury Active Adult
+          %li Custom Designs Available
+          %li Master on Main/Ranch Plans
+          %li Low Main
+    .span3
+      %p.shim-top.med
+        Serenity offer the quality you expect in a Treetop Residential home in beautifully impressive settings - a place where you can embrace each moment!  Located in Woodstock city, which was ranked as one of the top best cities to live in, by 
+        %a{:href => ""}
+          Money Magazine
+
+  .row.shim-bottom.med
+    .span12.med-font.landing-images
+      .money-text
+        Located in Woodstock city, which
+        %br
+        was ranked as one of the top best cities
+        %br
+        to live in, by 
+        %a{:href => ""}
+          Money Magazine
+      =image_tag("moneymagazineimage", class:"money-image")
+    
+      =image_tag("landingimage1", class:"first-landing")
+    
+      =image_tag("landingimage2")
+    
+      =image_tag("landingimage3")
+  =render 'shared/footer'
+      

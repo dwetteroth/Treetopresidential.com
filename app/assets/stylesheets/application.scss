@@ -1,0 +1,206 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+/*
+
+Added styles
+
+*/
+
+
+
+@font-face {
+    font-family:"roboto";
+    src: url("RobotoSlab-Bold.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+
+
+
+body {
+	background-color: #f4f5ed !important; 
+	font-family: "Arial" !important;
+	.navigation-text {
+		color: #334e0f;
+	}
+
+	.navigation-header-border {
+		border: 1px solid #334e0f;
+	}
+
+	a {
+		color: #334e0f;
+		font-weight:500;
+	}
+	
+	.navvy {
+		list-style-type: none;
+		border: 1px solid #334e0f;
+		margin-top: 10px;
+		margin-left:10px;
+		padding: 5px;
+		margin: 0 auto;
+
+		li {
+			display: inline;
+			margin-right:50px;
+			color: #334e0f;
+			padding:10px;
+			&.active {
+				a {
+					font-weight: 700;
+				}
+			}
+		}
+		li:first-child {
+			margin-left:40px;
+		}
+
+	}
+	.header-middle {
+		height: 185px;
+	}
+	.email {
+		margin-top: 5px;
+		margin-left: 55px;
+		.email-button {
+			text-align: right;
+			margin-left: 175px;
+		}
+		input {
+			border: 1px solid #395513;
+			border-radius: 0px 0px 0px 0px;
+			height: 12px;
+		}
+	}
+
+	.header-phone {
+		margin-top: 15px;
+		margin-bottom: 5px;
+		margin-left: -30px;
+		font-size:14px;
+		font-weight:700;
+		display:inline-block;
+	    transform:scale(0,0); /* W3C */
+	    -webkit-transform:scale(1.2,1); /* Safari and Chrome */
+	    -moz-transform:scale(2,1); /* Firefox */
+	    -ms-transform:scale(2,1); /* IE 9 */
+	    -o-transform:scale(2,1); /* Opera */
+	}
+
+	.top-social {
+		position:absolute;
+		margin-top: -30px;
+		margin-left: 140px;
+	}
+
+	.override-nav {
+		border: 1px solid #334e0f;
+	}
+
+	.shim-bottom {
+		&.small {
+			margin-bottom: 15px;
+		}
+		&.med {
+			margin-bottom: 25px;
+		}
+	}
+	.middle {
+		font-size: 12px;
+	}
+
+	.shim-top {
+		&.med {
+			padding-top:40px;
+		}
+		&.small {
+			padding-top: 15px;
+		}
+		&.med {
+			padding-top: 30px;
+		}
+	}
+	.shim-left {
+		&.med {
+			padding-top:40px;
+		}
+		&.small {
+			padding-left: 15px;
+		}
+	}
+	.motto {
+		width:120%;
+		max-width:120%;
+		margin-left:20px;
+	}
+	.price {
+		width: 120%;
+		max-width:120%;
+	}
+}
+
+
+footer {
+	background-color: #768751;
+	height: 90px;
+	font-size:14px;
+	width: 100%;
+	a {
+		font-size: 12px;
+	}
+	font-weight: 700;
+	.smaller {
+		font-size: 11px;
+		font-weight: 300;
+	}
+	.top-line {
+
+	}
+	.center {
+		text-align: center;
+	}
+	.right {
+		float: right;
+	}
+}
+
+.money-text {
+	position:relative;
+}
+
+
+
+.landing-images {
+	margin-top:-25px;
+	img {
+		width: 210px;
+		box-shadow: 2px 2px 2px 2px;
+		margin-right: 10px;
+	}
+	.first-landing {
+		margin-left: 60px;
+	}
+
+}
+
+.money-image {
+	width: 150px !important;
+	margin-left:20px;
+
+}
