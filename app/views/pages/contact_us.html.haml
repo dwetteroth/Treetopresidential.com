@@ -64,12 +64,23 @@
         %input{:type => "text"}/
         %br/
         .text-area
+        
           Text
+
           %textarea{:name => "text-summary", :cols => "60", :rows => "10"}
-        %button.right.contact
+        %button.right.contact.contact-submit
           Submit
-    .span6
+    .span6.map
       %img.contact-us{:alt => "Google Map of 5790 Holly Springs Parkway, Woodstock, GA", :src => "http://maps.googleapis.com/maps/api/staticmap?center=5790+Holly+Springs+Parkway,+Woodstock,+GA&zoom=16&scale=false&size=400x350&maptype=roadmap&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C5790+Holly+Springs+Parkway,+Woodstock,+GA"}/
-      
+      .row.shim-top.med
+        .col-md-4
+        .col-md-4
+          %a{:href => "#"}
+            Click here to find directions to Serenity
+  .row
+    .span6
+      %br/
+      %br/
+    .span6
   =render 'shared/footer'
       

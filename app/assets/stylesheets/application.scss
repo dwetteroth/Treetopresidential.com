@@ -103,11 +103,17 @@ body {
 			margin-top: -5px;
 			height:12px;
 			width: 240px;
+			border: 1px solid #395513;
 			border-radius: 0px;
 			&.phone {
-				margin-left: 9px;
+				margin-left: 7px;
 			}
 		}
+	}
+
+	.contact-submit {
+		color: #fff;
+		background-color: #395513;
 	}
 
 	img {
@@ -119,6 +125,7 @@ body {
 	.text-area {
 		vertical-align: top;
 		font-weight: 600;
+		
 		textarea {
 			margin-left: 18px;
 			margin-top: -5px;
@@ -126,6 +133,13 @@ body {
 			height: 140px;
 			border-radius: 0px;
 			resize: none;
+			border: 1px solid #395913
+		}
+	}
+
+	.map {
+		a {
+			font-weight: bold;
 		}
 	}
 	
