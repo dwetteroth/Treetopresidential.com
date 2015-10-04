@@ -1,0 +1,75 @@
+.container
+  =render '/shared/header'
+
+  .row  
+    .col-md-12
+      .ul.navvy
+        %li
+          %a{:href => "/"}
+            HOME
+        %li
+          %a{:href => "/features"}
+            FEATURES
+        %li
+          %a{:href => "/plans"}
+            FLOORPLANS
+        %li
+          %a{:href => "/location"}
+            LOCATION
+        %li
+          %a{:href => "/site-plan"}
+            SITE PLAN
+        %li.active
+          %a{:href => "/contact"}
+            CONTACT US
+          
+  .row.shim-top.small
+    .span6
+      We'd love to hear from you.  You can find our agent at our location (Coming soon in December 2015) or email us any questions you have.
+      %br/
+      %br/
+      5790 Holly Springs Parkway
+      Woodstock, GA 30188
+
+      %br/
+      %br/
+      770-000-0000
+      %br/
+      770-500-8876
+
+      %br/
+      %br/
+      .contact-us-emails
+        %a{:href => "mailto:email1@olga.com"}
+          email1@olga.com
+        %br/
+        %a{:href => "mailto:email2@olga.com"}
+          email2@olga.com
+      %br/
+      
+      %b
+        Send us any additional questions
+      %br/
+      %form.contact-form{:action => "/api/contact-us"}
+        %b
+          Name 
+        %input{:type => "text"}/
+        %br/
+        %b
+          Phone
+        %input.phone{:type => "text"}/
+        %br/
+        %b
+          Email
+        %input{:type => "text"}/
+        %br/
+        .text-area
+          Text
+          %textarea{:name => "text-summary", :cols => "60", :rows => "10"}
+        %button.right.contact
+          Submit
+    .span6
+      %img.contact-us{:alt => "Google Map of 5790 Holly Springs Parkway, Woodstock, GA", :src => "http://maps.googleapis.com/maps/api/staticmap?center=5790+Holly+Springs+Parkway,+Woodstock,+GA&zoom=16&scale=false&size=400x350&maptype=roadmap&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C5790+Holly+Springs+Parkway,+Woodstock,+GA"}/
+      
+  =render 'shared/footer'
+      

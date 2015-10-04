@@ -23,10 +23,10 @@ Added styles
 
 
 
-@font-face {
-    font-family:"roboto";
-    src: url("RobotoSlab-Bold.ttf") /* TTF file for CSS3 browsers */
-}
+// @font-face {
+//     font-family:"roboto";
+//     src: url("RobotoSlab-Bold.ttf") /* TTF file for CSS3 browsers */
+// }
 
 
 
@@ -34,7 +34,7 @@ Added styles
 
 body {
 	background-color: #f4f5ed !important; 
-	font-family: "Arial" !important;
+	font-family: "Times New Roman", Georgia, Serif !important;
 	.navigation-text {
 		color: #334e0f;
 	}
@@ -86,6 +86,56 @@ body {
 			border: 1px solid #395513;
 			border-radius: 0px 0px 0px 0px;
 			height: 12px;
+		}
+	}
+
+	.contact-us-emails {
+		a {
+			font-weight: 700;
+		}
+	}
+
+	.contact-form {
+		color: #334e0f;
+		margin-top: 10px;
+		input {
+			margin-left: 10px;
+			margin-top: -5px;
+			height:12px;
+			width: 240px;
+			border-radius: 0px;
+			&.phone {
+				margin-left: 9px;
+			}
+		}
+	}
+
+	img {
+		&.contact-us {
+			border: 1px solid #000;
+		}
+	}
+
+	.text-area {
+		vertical-align: top;
+		font-weight: 600;
+		textarea {
+			margin-left: 18px;
+			margin-top: -5px;
+			width: 360px;
+			height: 140px;
+			border-radius: 0px;
+			resize: none;
+		}
+	}
+	
+	.right {
+		float: right;
+	}
+
+	button {
+		&.contact {
+			margin-right: 50px;
 		}
 	}
 
