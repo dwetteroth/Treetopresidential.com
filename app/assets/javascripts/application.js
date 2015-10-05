@@ -13,5 +13,33 @@
 //= require jquery
 
 //= require jquery_ujs
-//= require turbolinks
+
+//= reuqire slick.min
 //= require_tree .
+
+ $(document).ready(function () {
+
+    $('.slides').slick({
+      infinite: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      prevArrow:"<img src='/assets/arrowleftimage.png' style='height:40px;position:absolute;margin-left:-18px;margin-top:8px;'>",
+      nextArrow:"<img src='/assets/arrowrightimage.png' style='height:40px;position:absolute;margin-left:280px;margin-top:-50px;'>",
+      mobileFirst: true,
+      variableWidth: false,
+      focusOnSelect: true
+    });
+      
+
+    $('.plana').on('click', function() {
+    	console.log($(this));
+    	var currentSlide = $('.slides').slick('slickCurrentSlide');
+    	curr = currentSlide+1;
+    	console.log(curr);
+    	$('.plana-main')[0].src = '/assets/floorplanaimage'+curr+'.png';
+    	console.log($('.plana-main')[0].src);
+    });	
+
+
+ });
+			

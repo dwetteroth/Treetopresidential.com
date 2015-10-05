@@ -1,32 +1,49 @@
 .container
   =render '/shared/header'
 
-  .row  
-    .col-md-12
-      .ul.navvy
-        %li.active
+  .row
+    .col-md-12.navvy
+      .row
+        
+        .col-sm-2.active
           %a{:href => "/"}
             HOME
-        %li
+        .col-sm-2
           %a{:href => "/features"}
             FEATURES
-        %li
+        .col-sm-2
           %a{:href => "/plans"}
             FLOORPLANS
-        %li
+        .col-sm-2
           %a{:href => "/location"}
             LOCATION
-        %li
+        .col-sm-2
           %a{:href => "/site-plan"}
             SITE PLAN
-        %li
+        .col-sms-2
           %a{:href => "/contact"}
-            CONTACT US
-          
-  .row.shim-top.small
-    .span8
+            CONTACT US  
+        
+  .row.shim-top.sm
+    .col-md-8
       Bacon ipsum dolor amet tail strip steak meatball flank porchetta tri-tip corned beef t-bone prosciutto filet mignon bresaola frankfurter doner. Boudin brisket turkey venison shank alcatra rump drumstick pancetta bresaola spare ribs meatball frankfurter tail tongue. Short loin biltong jowl pork belly short ribs cupim pork loin swine picanha fatback chicken kevin turducken salami leberkas. Jowl strip steak chuck, alcatra cupim pig corned beef meatloaf jerky beef drumstick shoulder pastrami porchetta bacon. Jerky tail drumstick boudin. Corned beef pork belly hamburger flank fatback, ham hock tri-tip prosciutto rump andouille cow cupim. Pork loin kevin fatback drumstick shankle.
-    .span3
+
+
+      .row.shim-top.sm
+        .col-md-3
+          =image_tag("priceimage.png", class:"price")
+        .col-sm-4.col-md-offset-1.shim-left.sm
+          %p.shim-top.middlehp
+            Serenity offers the quality you expect in a Treetop Residential home in beautifully impressive settings - a place where you can embrace each moment!
+        .col-sm-4
+          %p.shim-top.middlehp
+            Serenity is:
+            %ul
+              %li Luxury Active Adult
+              %li Custom Designs Available
+              %li Master on Main/Ranch Plans
+              %li Low Main
+    .col-md-4
       
       =image_tag("mottoimage", class:"motto")
       .email
@@ -34,30 +51,16 @@
         %input{type:"text"}
         %button{class:"email-button"}
           Join
-
-  .row.middle
-    .span2
-      =image_tag("priceimage.png", class:"price")
-      
-    .span3.shim-left.small
-      %p.shim-top.med
-        Serenity offers the quality you expect in a Treetop Residential home in beautifully impressive settings - a place where you can embrace each moment!
-    .span3
-      %p.shim-top.med
-        Serenity is:
-        %ul
-          %li Luxury Active Adult
-          %li Custom Designs Available
-          %li Master on Main/Ranch Plans
-          %li Low Main
-    .span3
-      %p.shim-top.med
+    
+      %p.shim-left.sm.under-email
         Serenity offer the quality you expect in a Treetop Residential home in beautifully impressive settings - a place where you can embrace each moment!  Located in Woodstock city, which was ranked as one of the top best cities to live in, by 
         %a{:href => ""}
           Money Magazine
 
-  .row.shim-bottom.med
-    .span12.med-font.landing-images
+ 
+
+  .row.shim-bottom.med.shim-top
+    .col-md-12.med-font.landing-images
       .money-text
         Located in Woodstock city, which
         %br

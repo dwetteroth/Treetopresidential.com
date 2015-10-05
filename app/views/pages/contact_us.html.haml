@@ -1,27 +1,28 @@
 .container
   =render '/shared/header'
 
-  .row  
-    .col-md-12
-      .ul.navvy
-        %li
+  .row
+    .col-md-12.navvy
+      .row
+        
+        .col-sm-2
           %a{:href => "/"}
             HOME
-        %li
+        .col-sm-2
           %a{:href => "/features"}
             FEATURES
-        %li
+        .col-sm-2
           %a{:href => "/plans"}
             FLOORPLANS
-        %li
+        .col-sm-2
           %a{:href => "/location"}
             LOCATION
-        %li
+        .col-sm-2
           %a{:href => "/site-plan"}
             SITE PLAN
-        %li.active
+        .col-sms-2.active
           %a{:href => "/contact"}
-            CONTACT US
+            CONTACT US  
           
   .row.shim-top.sm
     .col-md-1

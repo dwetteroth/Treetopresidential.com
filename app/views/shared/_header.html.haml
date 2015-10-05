@@ -1,9 +1,10 @@
 .row-fluid
-  .span3.shim-top.sm
-    =image_tag("serenitylogoimage.png", class:"img-responsive")
-  .span6
+  .col-md-3.shim-top.sm
+    %a{:href => "/"}
+      =image_tag("serenitylogoimage.png", class:"img-responsive")
+  .col-md-6
     =image_tag("headerimage.png", class:"img-responsive header-middle")
-  .span3.shim-top.med
+  .col-md-3.shim-top.med
     .top-social
       =image_tag("facebookimage.png")
       =image_tag("twitterimage.png")

@@ -1,0 +1,148 @@
+
+
+.container
+  =render '/shared/header'
+  .row
+    .col-md-12.navvy
+      .row
+        
+        .col-sm-2
+          %a{:href => "/"}
+            HOME
+        .col-sm-2
+          %a{:href => "/features"}
+            FEATURES
+        .col-sm-2.active
+          %a{:href => "/plans"}
+            FLOORPLANS
+        .col-sm-2
+          %a{:href => "/location"}
+            LOCATION
+        .col-sm-2
+          %a{:href => "/site-plan"}
+            SITE PLAN
+        .col-sms-2
+          %a{:href => "/contact"}
+            CONTACT US   
+
+
+  .row.shim-top.sm
+    .col-md-2
+    .col-md-8.plan-bar
+      Plan Alexander
+      .row.generic.shim-top.sm
+        .col-md-5
+          =image_tag("floorplanaimage1.png", style:"width:300px;", class:"plana-main")
+          .slides.plana
+            %div 
+              =image_tag("floorplanaimage2.png", style:"width:95px;", id:"a2")
+            %div 
+              =image_tag("floorplanaimage3.png", style:"width:95px;", id:"a3")
+            %div 
+              =image_tag("floorplanaimage4.png", style:"width:95px;", id:"a4")
+            %div 
+              =image_tag("floorplanaimage5.png", style:"width:95px;", id:"a5")
+        .col-md-7.small.fp
+          .row
+            .col-md-6.fp
+              %b.title
+                Sq. Ft.: 
+              1500 - 3000
+              %br
+              %br
+              %b.title
+                Home Features:
+              %ul.no-list-style
+                %li 2+ bedrooms
+                %li 2+ bathrooms
+                %li Walk-in closets
+                %li Custom gourmet kitchen
+            
+            .col-md-6.fp
+              %a.title{:href => "#"}
+                View Floor Plans &amp; Elevations
+              %br
+              %strong.title
+                Contact Agent:
+              %br
+              (770) 000-0001
+              %br
+              blah@bb@g.com
+              %br
+              %br
+              %a.title{:href => "#"}
+                Download house plan details in PDF format
+          .row
+            .col-md-12.fp
+              %strong.title
+                House Features:
+              %ul.no-list-style.fp
+                %li 9' Ceilings
+                %li Crown Molding
+                %li Crown Molding
+                %li Crown Molding
+  .row.shim-top.sm
+    .col-md-2
+    .col-md-8.plan-bar
+      Plan Catherine
+      .row.generic.shim-top.sm
+        .col-md-5
+          =image_tag("floorplanbimage1.png", style:"width:300px;")
+          .slides.planb
+            %div.totop
+              =image_tag("floorplanbimage2.png", style:"width:95px;", id:"b2")
+            %div 
+              =image_tag("floorplanbimage3.png", style:"width:95px;", id:"b3")
+            %div 
+              =image_tag("floorplanbimage4.png", style:"width:95px;", id:"b4")
+            %div 
+              =image_tag("floorplanbimage5.png", style:"width:95px;", id:"b5")
+        .col-md-7.small.fp
+          .row
+            .col-md-6.fp
+              %b.title
+                Sq. Ft.: 
+              1500 - 3000
+              %br
+              %br
+              %b.title
+                Home Features:
+              %ul.no-list-style
+                %li 2+ bedrooms
+                %li 2+ bathrooms
+                %li Walk-in closets
+                %li Custom gourmet kitchen
+            
+            .col-md-6.fp
+              %a.title{:href => "#"}
+                View Floor Plans &amp; Elevations
+              %br
+              %strong.title
+                Contact Agent:
+              %br
+              (770) 000-0001
+              %br
+              blah@bb@g.com
+              %br
+              %br
+              %a.title{:href => "#"}
+                Download house plan details in PDF format
+          .row
+            .col-md-12.fp
+              %strong.title
+                House Features:
+              %ul.no-list-style.fp
+                %li 9' Ceilings
+                %li Crown Molding
+                %li Crown Molding
+                %li Crown Molding
+
+
+    .col-md-2
+
+  
+
+    
+  =render 'shared/footer'
+
+ 

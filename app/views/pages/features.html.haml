@@ -1,0 +1,76 @@
+.container
+  =render '/shared/header'
+  .row
+    .col-md-12.navvy
+      .row
+        
+        .col-sm-2
+          %a{:href => "/"}
+            HOME
+        .col-sm-2.active
+          %a{:href => "/features"}
+            FEATURES
+        .col-sm-2
+          %a{:href => "/plans"}
+            FLOORPLANS
+        .col-sm-2
+          %a{:href => "/location"}
+            LOCATION
+        .col-sm-2
+          %a{:href => "/site-plan"}
+            SITE PLAN
+        .col-sms-2
+          %a{:href => "/contact"}
+            CONTACT US   
+  .row.shim-top.sm
+    .col-md-1
+    .col-md-5
+      %b
+        Interior Features
+      %ul
+        %li 9' ceilings
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+    .col-md-5
+      %b
+        Exterior Features
+      %ul
+        %li Multiple selection of house elevations
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+    .col-md-1
+  .row.shim-top.med.shim-bottom
+    .col-md-1
+    .col-md-5
+      %b
+        Kitchen/Bathroom Features
+      %ul
+        %li 9' ceilings
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+    .col-md-5
+      %b
+        Extra Features
+      %ul
+        %li Multiple selection of house elevations
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+        %li blah
+    .col-md-1
+    
+  =render 'shared/footer'
