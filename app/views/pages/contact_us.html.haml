@@ -23,8 +23,9 @@
           %a{:href => "/contact"}
             CONTACT US
           
-  .row.shim-top.small
-    .span6
+  .row.shim-top.sm
+    .col-md-1
+    .col-md-5
       We'd love to hear from you.  You can find our agent at our location (Coming soon in December 2015) or email us any questions you have.
       %br/
       %br/
@@ -51,32 +52,48 @@
         Send us any additional questions
       %br/
       %form.contact-form{:action => "/api/contact-us"}
-        %b
-          Name 
-        %input{:type => "text"}/
-        %br/
-        %b
-          Phone
-        %input.phone{:type => "text"}/
-        %br/
-        %b
-          Email
-        %input{:type => "text"}/
-        %br/
-        .text-area
+        .row
+          .col-md-1
+            .contact-labels
+              Name
+          .col-md-11
+            %input{:type => "text"}/
+        .row
+          .col-md-1
+            .contact-labels
+              Phone
+          .col-md-11
+            %input{:type => "text"}/
+        .row
+          .col-md-1
+            .contact-labels
+              Email
+          .col-md-11
+            %input{:type => "text"}/
+        .row.text-area
+          .col-md-1
+            .contact-labels
+              Text
+          .col-md-11
+            %textarea{:name => "text-summary", :cols => "60", :rows => "10"}
+        .row
+          .col-md-6
+          .col-md-4
+            %button.right.contact-submit
+              Submit
         
-          Text
 
-          %textarea{:name => "text-summary", :cols => "60", :rows => "10"}
-        %button.right.contact.contact-submit
-          Submit
-    .span6.map
+        
+        
+    .col-md-5.map
       %img.contact-us{:alt => "Google Map of 5790 Holly Springs Parkway, Woodstock, GA", :src => "http://maps.googleapis.com/maps/api/staticmap?center=5790+Holly+Springs+Parkway,+Woodstock,+GA&zoom=16&scale=false&size=400x350&maptype=roadmap&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C5790+Holly+Springs+Parkway,+Woodstock,+GA"}/
       .row.shim-top.med
-        .col-md-4
-        .col-md-4
+        .col-md-2
+        .col-md-7
           %a{:href => "#"}
             Click here to find directions to Serenity
+        .col-md-3
+    .span1
   .row
     .span6
       %br/
