@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   get '/site-plan' => 'pages#site_plan'
   get '/contact' => 'pages#contact_us'
 
+  get '/api/email' =>"pages#email_service"
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

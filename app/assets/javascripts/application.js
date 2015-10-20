@@ -57,5 +57,37 @@
     }); 
 
 
+
+    $('.email-button').on('click', function() {
+      $.ajax({
+        url: '/api/email',
+        type: 'get',
+        dataType: 'json',
+        data: {code: $('#email-main').val()},
+        beforeSend: function() {
+          // Loading  
+        },
+        success: function(data) {
+          
+        },
+        error: function(data) {
+          
+        }
+      });
+
+
+      
+    });
+
+
+
+
+
+
+
+
+
+
+
  });
 			

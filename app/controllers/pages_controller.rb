@@ -28,4 +28,8 @@ class PagesController < ApplicationController
 	def contact_us
 
 	end
+
+	def email_service
+		UserMailer.marketing_email(params[:code]).deliver_now
+	end
 end
