@@ -20,7 +20,7 @@
  $(document).ready(function () {
 
     $('.slides').slick({
-      infinite: false,
+      infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
       prevArrow:"<img src='/assets/arrowleftimage.png' style='height:40px;position:absolute;margin-left:-18px;margin-top:8px;'>",

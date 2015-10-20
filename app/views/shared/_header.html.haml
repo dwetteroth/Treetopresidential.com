@@ -6,10 +6,22 @@
     =image_tag("headerimage.png", class:"img-responsive header-middle")
   .col-md-3.shim-top.med
     .top-social
-      =image_tag("facebookimage.png")
-      =image_tag("twitterimage.png")
-      =image_tag("pinimage.png")
-      =image_tag("googleplusimage.png")
+      / AddToAny BEGIN
+      .a2a_kit.a2a_default_style
+        
+        
+        %a.a2a_button_facebook
+        %a.a2a_button_twitter
+        %a.a2a_button_pinterest
+        %a.a2a_button_google_plus
+      %script{:src => "//static.addtoany.com/menu/page.js", :type => "text/javascript"}
+      / AddToAny END
+      
+      
+      / =image_tag("facebookimage.png")
+      / =image_tag("twitterimage.png")
+      / =image_tag("pinimage.png")
+      / =image_tag("googleplusimage.png")
     =image_tag("treetopimage.png", class:"img-responsive shim-left small")
     .header-phone
       770 - 000 - 0000 / 770 - 500 - 8876
