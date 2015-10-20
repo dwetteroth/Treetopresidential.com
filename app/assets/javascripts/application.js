@@ -29,6 +29,13 @@
       variableWidth: false,
       focusOnSelect: true
     });
+
+
+    $('.planb-main,.plana-main,.lil-plana,.lil-planb').on('click', function() {
+      window.open($(this)[0].currentSrc, '', 'width=640,height=480');
+    });
+
+
       
 
     $('.plana').on('click', function() {
