@@ -40,6 +40,15 @@
     	console.log($('.plana-main')[0].src);
     });	
 
+    $('.planb').on('click', function() {
+      console.log($(this));
+      var currentSlide = $('.slides.planb').slick('slickCurrentSlide');
+      curr = currentSlide+1;
+      console.log(curr);
+      $('.planb-main')[0].src = '/assets/floorplanbimage'+curr+'.png';
+      console.log($('.planb-main')[0].src);
+    }); 
+
 
  });
 			
