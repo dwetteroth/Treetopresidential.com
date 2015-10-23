@@ -160,6 +160,10 @@ body {
 		font-size: 14px;
 	}
 
+	.plana-main, .planb-main {
+		cursor: pointer;
+	}
+
 	.header-phone {
 		margin-top: 15px;
 		margin-bottom: 5px;
@@ -641,6 +645,19 @@ $slick-opacity-not-active: 0.25 !default;
     }
 }
 
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0px solid #999;
+    border: 0px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    outline: 0;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.5);
+    box-shadow: 0 0px 0px rgba(0,0,0,.5);
+}
 
 
 

@@ -149,9 +149,48 @@
 
     .col-md-2
 
+  =render 'shared/footer'
+
+.modal.fade{:id=>"largeSlide"}
+  .modal-dialog
+    .modal-content{style:"background-color:transparent !important;color:#fff;-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.5);box-shadow: 0 0px 0px rgba(0,0,0,.5);border:0px solid #999 !important;"}
+      .row.generic.shim-top.sm{style:"background-color:transparent !important;"}
+        .col-md-10
+           
+          =image_tag("floorplanaimage1.png", style:"width:600px;max-width:190%", class:"plana-main")
+
+          .slides.plana{style:"margin-left:115px;"}
+            %div 
+              =image_tag("floorplanaimage2.png", style:"width:130px;", id:"a2", class:"lil-plana")
+            %div 
+              =image_tag("floorplanaimage3.png", style:"width:130px;", id:"a3", class:"lil-plana")
+            %div 
+              =image_tag("floorplanaimage4.png", style:"width:130px;", id:"a4", class:"lil-plana")
+            %div 
+              =image_tag("floorplanaimage5.png", style:"width:130px;", id:"a5", class:"lil-plana")
+        .col-md-2
+          %span.close-modal{class:"glyphicon glyphicon-remove-circle", style:"margin-left: 75px;font-size: 20px;"} 
+
+
+.modal.fade{:id=>"largeSlide2"}
+  .modal-dialog
+    .modal-content{style:"background-color:transparent !important;color:#fff;-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.5);box-shadow: 0 0px 0px rgba(0,0,0,.5);border:0px solid #999 !important;"}
+      .row.generic.shim-top.sm{style:"background-color:transparent !important;"}
+        .col-md-10
+          =image_tag("floorplanbimage1.png", style:"width:600px;max-width:190%", class:"planb-main")
+          .slides.planb{style:"margin-left:115px;"}
+            %div.totop
+              =image_tag("floorplanbimage2.png", style:"width:95px;", id:"b2", class:"lil-planb")
+            %div 
+              =image_tag("floorplanbimage3.png", style:"width:95px;", id:"b3", class:"lil-planb")
+            %div 
+              =image_tag("floorplanbimage4.png", style:"width:95px;", id:"b4", class:"lil-planb")
+            %div 
+              =image_tag("floorplanbimage5.png", style:"width:95px;", id:"b5", class:"lil-planb")
+        .col-md-2
+          %span.close-modal{class:"glyphicon glyphicon-remove-circle", style:"margin-left: 75px;font-size: 20px;"}
   
 
-    
-  =render 'shared/footer'
+  
 
  

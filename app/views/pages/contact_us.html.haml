@@ -90,12 +90,32 @@
       %script{:src => "https://maps.googleapis.com/maps/api/js?v=3.exp"}
       %div{:style => "overflow:hidden;height:400px;width:350px;"}
         #gmap_canvas{:style => "height:400px;width:350px;"}
-        :css
-          #gmap_canvas img{max-width:none!important;background:none!important}%a{:href => "http://www.maps-generator.com/"} Click
-      %script{:src => "https://embedmaps.com/google-maps-authorization/script.js?id=3d7cb0bb20ac6196ce215b928c0ae91e9fc06bd7", :type => "text/javascript"}
+        
+          
+      
       :javascript
-        function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(34.1358338,-84.49990209999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(34.1358338,-84.49990209999999)});infowindow = new google.maps.InfoWindow({content:'5790 Holly Springs Parkway, Woodstock, GA '});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
-      / %img.contact-us{:alt => "Google Map of 5790 Holly Springs Parkway, Woodstock, GA", :src => "http://maps.googleapis.com/maps/api/staticmap?center=5790+Holly+Springs+Parkway,+Woodstock,+GA&zoom=16&scale=true&size=400x350&maptype=roadmap&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C5790+Holly+Springs+Parkway,+Woodstock,+GA"}/
+        var markers = [];
+        var map;
+        function initialize() {
+          map = new google.maps.Map(document.getElementById('gmap_canvas'), {
+            zoom: 16,
+            center: {lat: 34.1358338, lng: -84.49990209999999}
+          });
+
+          var marker = new google.maps.Marker({
+              map: map,
+              position: map.center
+          });
+          //map.setOptions({draggable: false, scrollwheel: false, disableDoubleClickZoom: true});
+
+          markers.push(marker);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+
       .row.shim-top.med
         .col-md-2
         .col-md-7

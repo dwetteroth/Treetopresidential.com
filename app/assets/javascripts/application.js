@@ -31,11 +31,23 @@
     });
 
 
-    $('.planb-main,.plana-main,.lil-plana,.lil-planb').on('click', function() {
-      window.open($(this)[0].currentSrc, '', 'width=640,height=480');
+  $('.close-modal').on('click', function() {
+    $('#largeSlide').modal('hide');
+    $('#largeSlide2').modal('hide');
+  });
+
+
+    $('.plana-main').on('click', function() {
+      //window.open($(this)[0].currentSrc, '', 'width=640,height=480');
+      $('#largeSlide').modal('show');
     });
 
+    
 
+    $('.planb-main').on('click', function() {
+      //window.open($(this)[0].currentSrc, '', 'width=640,height=480');
+      $('#largeSlide2').modal('show');
+    });
       
 
     $('.plana').on('click', function() {
