@@ -37,16 +37,55 @@
   });
 
 
+    $('.lnk1').on('click', function() {
+      $('#largeSlide').modal('show');
+      setTimeout(function(){
+        $('.slides1').slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:82px;position:absolute;margin-left:-24px;margin-top:0px;background-color:#000;opacity:.5'>",
+          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:80px;position:absolute;margin-left:380px;margin-top:-81px;background-color:#000;opacity:.5'>",
+          mobileFirst: true,
+          variableWidth: false,
+          focusOnSelect: true
+        });  
+      },200);      
+    });
+
+
+    $('.lnk2').on('click', function() {
+      $('#largeSlide2').modal('show');
+      setTimeout(function(){
+        $('.slides2').slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:82px;position:absolute;margin-left:-24px;margin-top:0px;background-color:#000;opacity:.5'>",
+          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:80px;position:absolute;margin-left:380px;margin-top:-81px;background-color:#000;opacity:.5'>",
+          mobileFirst: true,
+          variableWidth: false,
+          focusOnSelect: true
+        });
+      },200);
+    });
+
+
+
     $('.plana-main').on('click', function() {
       //window.open($(this)[0].currentSrc, '', 'width=640,height=480');
-      $('#largeSlide').modal('show');
+      //$('#largeSlide').modal('show');
+      $('.lnk1').trigger("click");
+      //$('.slides').resize();
     });
 
     
 
     $('.planb-main').on('click', function() {
       //window.open($(this)[0].currentSrc, '', 'width=640,height=480');
-      $('#largeSlide2').modal('show');
+      // $('#largeSlide2').modal('show');
+      // $('.slides').resize();
+      $('.lnk2').trigger("click");
     });
       
 
@@ -80,10 +119,10 @@
           // Loading  
         },
         success: function(data) {
-          
+          $('#email-main').val('');
         },
         error: function(data) {
-          
+          $('#email-main').val('');
         }
       });
 

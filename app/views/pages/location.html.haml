@@ -45,7 +45,33 @@
 
         Short ribs tongue pork belly, kevin jerky pancetta ribeye pork chop short loin beef landjaeger turducken rump biltong shankle. Tail biltong doner spare ribs drumstick meatball shoulder kielbasa meatloaf pork loin frankfurter corned beef. Shankle corned beef drumstick doner rump. Bresaola rump swine brisket shoulder.
     .col-md-6
-      %img.contact-us{:alt => "Google Map of 5790 Holly Springs Parkway, Woodstock, GA", :src => "http://maps.googleapis.com/maps/api/staticmap?center=5790+Holly+Springs+Parkway,+Woodstock,+GA&zoom=16&scale=false&size=400x350&maptype=roadmap&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C5790+Holly+Springs+Parkway,+Woodstock,+GA"}/
+      %script{:src => "https://maps.googleapis.com/maps/api/js?v=3.exp"}
+      %div{:style => "overflow:hidden;height:400px;width:350px;"}
+        #gmap_canvas{:style => "height:400px;width:350px;"}
+        
+          
+      
+      :javascript
+        var markers = [];
+        var map;
+        function initialize() {
+          map = new google.maps.Map(document.getElementById('gmap_canvas'), {
+            zoom: 16,
+            center: {lat: 34.1358338, lng: -84.49990209999999}
+          });
+
+          var marker = new google.maps.Marker({
+              map: map,
+              position: map.center
+          });
+          //map.setOptions({draggable: false, scrollwheel: false, disableDoubleClickZoom: true});
+
+          markers.push(marker);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+      / %img.contact-us{:alt => "Google Map of 5790 Holly Springs Parkway, Woodstock, GA", :src => "http://maps.googleapis.com/maps/api/staticmap?center=5790+Holly+Springs+Parkway,+Woodstock,+GA&zoom=16&scale=false&size=400x350&maptype=roadmap&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C5790+Holly+Springs+Parkway,+Woodstock,+GA"}/
       .row
         .col-md-4
           %b
