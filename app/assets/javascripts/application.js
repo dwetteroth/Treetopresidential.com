@@ -90,24 +90,24 @@
       
     $('.lil-plana').on('click', function() {
       var rt = $(this).attr("id").replace(/\D/g,'');
-      $('.plana-main')[0].src = '/assets/floorplanaimage'+rt+'.png';
+      $('.plana-main')[0].src = '/assets/floorplanabigimage'+rt+'.png';
     });
 
     $('.lil-planb').on('click', function() {
       console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
-      $('.planb-main')[0].src = '/assets/floorplanbimage'+rt+'.png';
+      $('.planb-main')[0].src = '/assets/floorplanbbigimage'+rt+'.png';
     });
 
     $('.wlil-plana').on('click', function() {
       var rt = $(this).attr("id").replace(/\D/g,'');
-      $('.wplana-main')[0].src = '/assets/floorplanaimage'+rt+'.png';
+      $('.wplana-main')[0].src = '/assets/floorplanabigimage'+rt+'.png';
     });
 
     $('.clil-planb').on('click', function() {
       console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
-      $('.cplanb-main')[0].src = '/assets/floorplanbimage'+rt+'.png';
+      $('.cplanb-main')[0].src = '/assets/floorplanbbigimage'+rt+'.png';
     });
 
 
