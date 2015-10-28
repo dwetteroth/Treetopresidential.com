@@ -42,7 +42,7 @@
       setTimeout(function(){
         $('.slides1').slick({
           infinite: true,
-          slidesToShow: 3,
+          slidesToShow: 5,
           slidesToScroll: 1,
           prevArrow:"<img src='/assets/arrowleftimage.png' style='height:82px;position:absolute;margin-left:-24px;margin-top:0px;background-color:#000;opacity:.5'>",
           nextArrow:"<img src='/assets/arrowrightimage.png' style='height:80px;position:absolute;margin-left:380px;margin-top:-81px;background-color:#000;opacity:.5'>",
@@ -59,7 +59,7 @@
       setTimeout(function(){
         $('.slides2').slick({
           infinite: true,
-          slidesToShow: 3,
+          slidesToShow: 5,
           slidesToScroll: 1,
           prevArrow:"<img src='/assets/arrowleftimage.png' style='height:82px;position:absolute;margin-left:-24px;margin-top:0px;background-color:#000;opacity:.5'>",
           nextArrow:"<img src='/assets/arrowrightimage.png' style='height:80px;position:absolute;margin-left:380px;margin-top:-81px;background-color:#000;opacity:.5'>",
