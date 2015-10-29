@@ -22,11 +22,11 @@
     $('.slides').slick({
       infinite: true,
       slidesToShow: 3,
-      slidesToScroll: 1,
+      slidesToScroll: 3,
       prevArrow:"<img src='/assets/arrowleftimage.png' style='height:40px;position:absolute;margin-left:-18px;margin-top:8px;'>",
       nextArrow:"<img src='/assets/arrowrightimage.png' style='height:40px;position:absolute;margin-left:280px;margin-top:-50px;'>",
-      mobileFirst: true,
-      variableWidth: false
+      mobileFirst: true
+      //variableWidth: false
       //focusOnSelect: true
     });
 
@@ -89,23 +89,29 @@
     });
       
     $('.lil-plana').on('click', function() {
+      // console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
-      $('.plana-main')[0].src = '/assets/floorplanabigimage'+rt+'.png';
+      // console.log(rt);
+      if(rt!="") {
+        $('.plana-main')[0].src = '/assets/floorplanaimage'+rt+'.png';  
+      }
+      
     });
 
     $('.lil-planb').on('click', function() {
-      console.log($(this));
+      // console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
-      $('.planb-main')[0].src = '/assets/floorplanbbigimage'+rt+'.png';
+      $('.planb-main')[0].src = '/assets/floorplanbimage'+rt+'.png';
     });
 
     $('.wlil-plana').on('click', function() {
+      // console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
       $('.wplana-main')[0].src = '/assets/floorplanabigimage'+rt+'.png';
     });
 
     $('.clil-planb').on('click', function() {
-      console.log($(this));
+      
       var rt = $(this).attr("id").replace(/\D/g,'');
       $('.cplanb-main')[0].src = '/assets/floorplanbbigimage'+rt+'.png';
     });
