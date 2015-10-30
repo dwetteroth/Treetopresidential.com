@@ -19,6 +19,7 @@
 
 
 var currentSlide = 1;
+var currentSlideB = 1;
 
  $(document).ready(function () {
 
@@ -27,7 +28,7 @@ var currentSlide = 1;
       slidesToShow: 3,
       slidesToScroll: 3,
       prevArrow:"<img src='/assets/arrowleftimage.png' style='height:40px;position:absolute;margin-left:-18px;margin-top:8px;'>",
-      nextArrow:"<img src='/assets/arrowrightimage.png' style='height:40px;position:absolute;margin-left:243px;margin-top:-45px;'>",
+      nextArrow:"<img src='/assets/arrowrightimage.png' style='height:40px;position:absolute;margin-left:300px;margin-top:-50px;'>",
       mobileFirst: true
       //variableWidth: false
       //focusOnSelect: true
@@ -38,7 +39,7 @@ var currentSlide = 1;
       slidesToShow: 3,
       slidesToScroll: 3,
       prevArrow:"<img src='/assets/arrowleftimage.png' style='height:40px;position:absolute;margin-left:-18px;margin-top:8px;'>",
-      nextArrow:"<img src='/assets/arrowrightimage.png' style='height:40px;position:absolute;margin-left:243px;margin-top:-45px;'>",
+      nextArrow:"<img src='/assets/arrowrightimage.png' style='height:40px;position:absolute;margin-left:300px;margin-top:-50px;'>",
       mobileFirst: true
       //variableWidth: false
       //focusOnSelect: true
@@ -72,7 +73,7 @@ var currentSlide = 1;
 
     $('.lnk2').on('click', function() {
       $('#largeSlide2').modal('show');
-      $('.cplanb-main').attr('src','/assets/floorplanbbigimage'+currentSlide+'.png');
+      $('.cplanb-main').attr('src','/assets/floorplanbbigimage'+currentSlideB+'.png');
       setTimeout(function(){
         $('.slides2').slick({
           infinite: true,
@@ -122,7 +123,7 @@ var currentSlide = 1;
     $('.lil-planb').on('click', function() {
       // console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
-      currentSlide = rt;
+      currentSlideB = rt;
       $('.planb-main')[0].src = '/assets/floorplanbimage'+rt+'.png';
     });
 
