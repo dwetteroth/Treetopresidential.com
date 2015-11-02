@@ -201,8 +201,8 @@ body {
 	}
 
 	.shim-top {
-		&.med {
-			padding-top:40px;
+		&.large {
+			padding-top:60px;
 		}
 		&.sm {
 			padding-top: 15px;
@@ -719,6 +719,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 			.under-email {
 				margin-top: 15px;
+
 			}
 
 			.next-arrow {
@@ -752,14 +753,39 @@ $slick-opacity-not-active: 0.25 !default;
 
 			.motto {
 
-				    max-width: 41% !important;
-				    margin-left: 348px !important;
-				    position: absolute;
-				    margin-top: 50px;
+		    // max-width: 77% !important;
+		    // margin-left: 540px !important;
+		    // position: absolute;
+		    // margin-top: -253px;
 			}
 			.site-plan-img {
 				margin-left: -60px !important;
 			}
+
+			.email {
+				margin-left: 20px !important;
+			}
+
+			.email .email-button {
+				margin-left: 0px !important;
+			}
+
+			.under-email {
+				margin-top: 15px;
+				width: 210px;
+				margin-left: 85px !important;
+			}
+			.middle-piece {
+				width: 166px !important;
+				padding-right: 0px !important;
+			}
+
+			.price {
+				width: 140% !important;
+				max-width: 140% !important;
+			}
+
+
     }
 		
 
@@ -768,6 +794,7 @@ $slick-opacity-not-active: 0.25 !default;
 			// .header-middle {
 			// 	display: none !important;
 			// }
+
 			.header-phone {
 				margin-top: 21px !important;
 		    margin-bottom: 20px !important;
@@ -791,10 +818,11 @@ $slick-opacity-not-active: 0.25 !default;
 
 			.under-email {
 				margin-top: 15px;
+
 			}
 
 			.next-arrow {
-				margin-left: 238px !important;
+				margin-left: 243px !important;
 				margin-top: -45px !important;
 			}
 
@@ -802,8 +830,15 @@ $slick-opacity-not-active: 0.25 !default;
 				margin-left: 0px !important;
 			}
 
+			.email {
+				height: 38px;
+				margin-left: 0px !important;
+				width: 210px !important;
+				margin-left: 67px !important;
+			}
+
 			.email .email-button {
-				margin-left: 110px !important;
+				margin-left: 0px !important;
 			}
 
 			.site-plan-img {
