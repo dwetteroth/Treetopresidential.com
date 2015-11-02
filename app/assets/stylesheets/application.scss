@@ -740,49 +740,14 @@ $slick-opacity-not-active: 0.25 !default;
 			.motto {
 				width: 96% !important;
 			}
-			// .tree-top-header {
-			// 	width: 106px;
-		 //    display: block;
-		 //    position: absolute;
-		 //    height: 68px;
-		 //    margin-top: -56px;
-		 //    margin-left: -23px;
-			// }
-			// .top-social {
-			// 	margin-left: 195px !important;
-			// }
-			// .header-phone {
-			// 	margin-top: 25px !important;
-			// 	margin-left: 37px !important;
-			// }
-			// .navvy {
-			// 	text-align: center !important;
-			// 	.col-sm-2 {
-			// 		text-align: center !important;
-			// 	}
-			// }
-			// .site-plan-img {
-			// 	width: 90%;
-			// }
-			// .price {
-			// 	width: 100% !important;
-			// }
-			// .landing-images {
-			// 	display: none;
-			// }
 
-			// .contact-form {
-			// 	.contact-labels {
-			// 		margin-top: 0px !important;
-			// 	}
-			// }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
-			// .header-middle {
-			// 	display: none !important;
-			// }
+			.header-middle {
+				display: none !important;
+			}
 
 
 			// .tree-top-header {
@@ -816,6 +781,66 @@ $slick-opacity-not-active: 0.25 !default;
 			// 	display: none;
 			// }
     }
+		
+
+		// Landscape mode!!!  IPAD
+    @media only screen and (width:1024px) {
+			// .header-middle {
+			// 	display: none !important;
+			// }
+			.header-phone {
+				margin-top: 21px !important;
+		    margin-bottom: 20px !important;
+		    margin-left: 0px !important;
+		    font-size: 10px !important;
+		    font-weight: 700;
+		    display: inline-block;
+		  }
+
+		  .price {
+		  	width: 140% !important;
+		  }
+
+		  .shim-top.middlehp {
+		  	padding-top: 15px !important;
+		  }
+
+			.landing-images img {
+				width: 160px !important;
+			}
+
+			.under-email {
+				margin-top: 15px;
+			}
+
+			.next-arrow {
+				margin-left: 238px !important;
+				margin-top: -45px !important;
+			}
+
+			.under-email {
+				margin-left: 0px !important;
+			}
+
+			.email .email-button {
+				margin-left: 110px !important;
+			}
+
+			.site-plan-img {
+				width: 100% !important;
+			}
+
+			.contact-text {
+				width: 100%;
+			}
+			.text-area textarea {
+				width: 240px !important;
+			}
+
+			.motto {
+				width: 96% !important;
+			}
+		}
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
