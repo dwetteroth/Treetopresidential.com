@@ -228,7 +228,7 @@ body {
 		margin-left:20px;
 	}
 	.price {
-		width: 130%;
+		width: 110%;
 		max-width:130%;
 	}
 }
@@ -294,13 +294,18 @@ footer {
 .under-email {
 	text-align: justify;
 	width:260px;
-	margin-left:50px;
+	margin-left:150px;
+	margin-top: 70px;
 }
 
 .active {
 	a {
 	font-weight: 700;
 	}
+}
+
+.middle-piece {
+	padding-left: 42px;
 }
 
 
@@ -781,8 +786,8 @@ $slick-opacity-not-active: 0.25 !default;
 			}
 
 			.price {
-				width: 140% !important;
-				max-width: 140% !important;
+				width: 120% !important;
+				max-width: 120% !important;
 			}
 
 
@@ -805,7 +810,7 @@ $slick-opacity-not-active: 0.25 !default;
 		  }
 
 		  .price {
-		  	width: 140% !important;
+		  	width: 120% !important;
 		  }
 
 		  .shim-top.middlehp {
