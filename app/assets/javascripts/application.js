@@ -28,7 +28,7 @@ var currentSlideB = 1;
       slidesToShow: 3,
       slidesToScroll: 3,
       prevArrow:"<img src='/assets/arrowleftimage.png' style='height:40px;position:absolute;margin-left:-18px;margin-top:8px;'>",
-      nextArrow:"<img src='/assets/arrowrightimage.png' style='height:40px;position:absolute;margin-left:300px;margin-top:-50px;'>",
+      nextArrow:"<img class='next-arrow' src='/assets/arrowrightimage.png' style='height:40px;position:absolute;margin-left:300px;margin-top:-50px;'>",
       mobileFirst: true
       //variableWidth: false
       //focusOnSelect: true
@@ -39,7 +39,7 @@ var currentSlideB = 1;
       slidesToShow: 3,
       slidesToScroll: 3,
       prevArrow:"<img src='/assets/arrowleftimage.png' style='height:40px;position:absolute;margin-left:-18px;margin-top:8px;'>",
-      nextArrow:"<img src='/assets/arrowrightimage.png' style='height:40px;position:absolute;margin-left:300px;margin-top:-50px;'>",
+      nextArrow:"<img class='next-arrow' src='/assets/arrowrightimage.png' style='height:40px;position:absolute;margin-left:300px;margin-top:-50px;'>",
       mobileFirst: true
       //variableWidth: false
       //focusOnSelect: true

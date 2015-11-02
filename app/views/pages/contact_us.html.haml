@@ -26,7 +26,7 @@
           
   .row.shim-top.sm
     .col-md-1
-    .col-md-5
+    .col-md-5.col-sm-6
       We'd love to hear from you.  You can find our agent at our location (Coming soon in December 2015) or email us any questions you have.
       %br/
       %br/
@@ -54,39 +54,39 @@
       %br/
       %form.contact-form{:action => "/api/contact-us"}
         .row
-          .col-md-1
+          .col-md-1.col-sm-1
             .contact-labels
               Name
-          .col-md-11
+          .col-md-11.col-sm-11
             %input{:type => "text"}/
         .row
-          .col-md-1
+          .col-md-1.col-sm-1
             .contact-labels
               Phone
-          .col-md-11
+          .col-md-11.col-sm-11
             %input{:type => "text"}/
         .row
-          .col-md-1
+          .col-md-1.col-sm-1
             .contact-labels
               Email
-          .col-md-11
+          .col-md-11.col-sm-11
             %input{:type => "text"}/
         .row.text-area
-          .col-md-1
+          .col-md-1.col-sm-1
             .contact-labels
               Text
-          .col-md-11
-            %textarea{:name => "text-summary", :cols => "60", :rows => "10"}
+          .col-md-11.col-sm-11
+            %textarea{:name => "text-summary", :cols => "60", :rows => "10", class:"contact-text"}
         .row
-          .col-md-6
-          .col-md-4
+          .col-md-6.col-sm-6
+          .col-md-4.col-sm-4
             %button.right.contact-submit
               Submit
         
 
         
         
-    .col-md-5.map
+    .col-md-4.map
       %script{:src => "https://maps.googleapis.com/maps/api/js?v=3.exp"}
       %div{:style => "overflow:hidden;height:400px;width:350px;"}
         #gmap_canvas{:style => "height:400px;width:350px;"}
