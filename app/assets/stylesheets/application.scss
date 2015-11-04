@@ -786,6 +786,21 @@ $slick-opacity-not-active: 0.25 !default;
 				margin-left: 0px !important;
 			}
 
+			.email {
+				height: 38px;
+				margin-left: 0px !important;
+				width: 170px !important;
+				margin-left: 30px !important;
+				#email-main {
+					width: 100%;
+				}
+			}
+
+
+			.email .email-button {
+				margin-left: 130px !important;
+			}
+
 			.under-email {
 				margin-top: 15px;
 				width: 210px;
@@ -961,10 +976,14 @@ $slick-opacity-not-active: 0.25 !default;
 				margin-left: 0px !important;
 				width: 245px !important;
 				margin-left: 67px !important;
+				#email-main {
+					width: 70%;
+				}
 			}
 
+
 			.email .email-button {
-				margin-left: 0px !important;
+				margin-left: 130px !important;
 			}
 
 			.site-plan-img {
