@@ -74,7 +74,7 @@ body {
 		margin-left: 110px;
 		.email-button {
 			text-align: right;
-			margin-left: 165px;
+			margin-left: 110px;
 			background-color: #334e0f;
 			color: #fff;
 		}
@@ -762,6 +762,10 @@ $slick-opacity-not-active: 0.25 !default;
 				// display: none !important;
 			}
 
+			.first-pblock {
+				margin-left: 50px;
+				width: 155px;
+			}
 
 			.motto {
 
@@ -801,76 +805,6 @@ $slick-opacity-not-active: 0.25 !default;
     }
 		
 
-		// Landscape mode!!!  IPAD
-    @media only screen and (width:1024px) {
-			// .header-middle {
-			// 	display: none !important;
-			// }
-
-			.header-phone {
-				margin-top: 21px !important;
-		    margin-bottom: 20px !important;
-		    margin-left: 0px !important;
-		    font-size: 10px !important;
-		    font-weight: 700;
-		    display: inline-block;
-		  }
-
-		  .price {
-		  	width: 120% !important;
-		  }
-
-		  .shim-top.middlehp {
-		  	padding-top: 15px !important;
-		  }
-
-			.landing-images img {
-				width: 160px !important;
-			}
-
-			.under-email {
-				margin-top: 15px;
-
-			}
-
-			.next-arrow {
-				margin-left: 243px !important;
-				margin-top: -45px !important;
-			}
-
-			.under-email {
-				margin-left: -15px !important;
-			}
-
-			.email {
-				height: 38px;
-				margin-left: 0px !important;
-				width: 245px !important;
-				margin-left: 67px !important;
-			}
-
-			.email .email-button {
-				margin-left: 0px !important;
-			}
-
-			.site-plan-img {
-				width: 100% !important;
-			}
-
-			.contact-text {
-				width: 100%;
-			}
-			.text-area textarea {
-				width: 240px !important;
-			}
-
-			.motto {
-				width: 96% !important;
-			}
-			.middle-piece {
-				width: 230px !important;
-			}
-		}
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
@@ -961,6 +895,13 @@ $slick-opacity-not-active: 0.25 !default;
 @media (min-width: 992px) {
 	.middle-piece {
 		width: 250px !important;
+		padding-left: 49px !important;
+	}
+	.first-pblock {
+		float:left;
+		margin-left: 76px;
+		width: 246px;
+		text-align: justify;
 	}
 
 	.under-email {
@@ -970,6 +911,80 @@ $slick-opacity-not-active: 0.25 !default;
 
 
 
+		// Landscape mode!!!  IPAD
+    @media only screen and (width:1024px) {
+			// .header-middle {
+			// 	display: none !important;
+			// }
+
+			.header-phone {
+				margin-top: 21px !important;
+		    margin-bottom: 20px !important;
+		    margin-left: 0px !important;
+		    font-size: 10px !important;
+		    font-weight: 700;
+		    display: inline-block;
+		  }
+		  .first-pblock {
+				margin-left: 50px;
+				width: 200px;
+			}
+
+		  .price {
+		  	width: 120% !important;
+		  }
+
+		  .shim-top.middlehp {
+		  	padding-top: 15px !important;
+		  }
+
+			.landing-images img {
+				width: 160px !important;
+			}
+
+			.under-email {
+				margin-top: 15px;
+
+			}
+
+			.next-arrow {
+				margin-left: 243px !important;
+				margin-top: -45px !important;
+			}
+
+			.under-email {
+				margin-left: -15px !important;
+			}
+
+			.email {
+				height: 38px;
+				margin-left: 0px !important;
+				width: 245px !important;
+				margin-left: 67px !important;
+			}
+
+			.email .email-button {
+				margin-left: 0px !important;
+			}
+
+			.site-plan-img {
+				width: 100% !important;
+			}
+
+			.contact-text {
+				width: 100%;
+			}
+			.text-area textarea {
+				width: 240px !important;
+			}
+
+			.motto {
+				width: 96% !important;
+			}
+			.middle-piece {
+				width: 230px !important;
+			}
+		}
 
 
 
