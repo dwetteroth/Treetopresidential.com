@@ -426,6 +426,10 @@ footer {
         visibility: hidden;
     }
 }
+
+.bullets-wide {
+	width: 230px;
+}
 .slick-slide {
     float: left;
     height: 100%;
@@ -716,6 +720,7 @@ $slick-opacity-not-active: 0.25 !default;
 			// .header-middle {
 			// 	display: none !important;
 			// }
+			
 			.header-phone {
 				margin-top: 21px !important;
 		    margin-bottom: 20px !important;
@@ -769,6 +774,10 @@ $slick-opacity-not-active: 0.25 !default;
     @media only screen and (max-width : 768px) {
 			.header-middle {
 				// display: none !important;
+			}
+
+			.bullets-wide {
+				width: 190px;
 			}
 
 			.close-modal {
@@ -992,6 +1001,10 @@ $slick-opacity-not-active: 0.25 !default;
 				margin-left: 50px;
 				width: 200px;
 			}
+			.bullets-wide {
+				width: 190px;
+			}
+
 
 		  .price {
 		  	width: 130% !important;
