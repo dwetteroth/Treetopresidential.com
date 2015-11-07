@@ -99,6 +99,13 @@ body {
 		}
 	}
 
+	.money-text {
+    position: relative;
+    width: 235px;
+
+    text-align: justify;
+	}
+
 	.contact-form {
 		color: #334e0f;
 		margin-top: 10px;
@@ -511,6 +518,8 @@ $slick-opacity-not-active: 0.25 !default;
     }
 }
 
+
+
 /* Slider */
 
 .slick-list {
@@ -740,7 +749,7 @@ $slick-opacity-not-active: 0.25 !default;
 		  }
 
 			.landing-images img {
-				width: 115px !important;
+				//width: 115px !important;
 			}
 
 			.under-email {
@@ -778,6 +787,18 @@ $slick-opacity-not-active: 0.25 !default;
 
 			.bullets-wide {
 				width: 190px;
+			}
+
+			.three-amigos {
+				width: 157px !important;
+    		margin-left: 0px !important;
+    		margin-right: 11px !important;
+			}
+
+			.money-text {
+			    position: relative;
+			    width: 165px !important;
+			    text-align: justify;
 			}
 
 			.close-modal {
@@ -1005,6 +1026,12 @@ $slick-opacity-not-active: 0.25 !default;
 				width: 190px;
 			}
 
+			.three-amigos {
+				width: 231px !important;
+    		margin-left: 0px !important;
+    		margin-right: 11px !important;
+			}
+
 
 		  .price {
 		  	width: 130% !important;
@@ -1016,7 +1043,7 @@ $slick-opacity-not-active: 0.25 !default;
 		  }
 
 			.landing-images img {
-				width: 160px !important;
+				//width: 160px !important;
 			}
 
 			.under-email {
@@ -1068,6 +1095,12 @@ $slick-opacity-not-active: 0.25 !default;
 			}
 			.middle-piece {
 				width: 230px !important;
+			}
+
+			.money-text {
+			    position: relative;
+			    width: 185px !important;
+			    text-align: justify;
 			}
 		}
 
