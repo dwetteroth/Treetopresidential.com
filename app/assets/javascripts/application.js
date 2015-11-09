@@ -220,21 +220,21 @@ var currentSlide6 = 1;
     $('.lil-plan5').on('click', function() {
       // console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
-      currentSlideB = rt;
+      currentSlide5 = rt;
       $('.plan5-main')[0].src = '/assets/Plan5_Aberdeen/Plan5_'+rt+'.jpg';
     });
 
     $('.lil-plan4').on('click', function() {
       // console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
-      currentSlideB = rt;
+      currentSlide4 = rt;
       $('.plan4-main')[0].src = '/assets/Plan4_Charlotte/Plan4_'+rt+'.jpg';
     });
 
     $('.lil-plan3').on('click', function() {
       // console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
-      currentSlideB = rt;
+      currentSlide3 = rt;
       $('.plan3-main')[0].src = '/assets/Plan3_Lyndhurst/Plan3_'+rt+'.jpg';
     });
 
@@ -242,7 +242,7 @@ var currentSlide6 = 1;
     $('.lil-plan6').on('click', function() {
       // console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
-      currentSlideB = rt;
+      currentSlide6 = rt;
       $('.plan6-main')[0].src = '/assets/Plan6_Abigail/Plan6_'+rt+'.jpg';
     });
 
