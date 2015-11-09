@@ -70916,3 +70916,1628 @@ Started GET "/assets/Plan6_Abigail/Plan6_4.jpg" for ::1 at 2015-11-09 12:41:02 -
 
 
 Started GET "/assets/Plan6_Abigail/Plan6_1.jpg" for ::1 at 2015-11-09 12:41:04 -0500
+
+
+Started GET "/plans" for ::1 at 2015-11-09 13:19:44 -0500
+Processing by PagesController#floorplans as HTML
+  Rendered shared/_header.html.haml (196.8ms)
+  Rendered shared/_footer.html.haml (6.9ms)
+  Rendered pages/floorplans.html.haml within layouts/application (2027.9ms)
+Completed 200 OK in 2353ms (Views: 2352.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fef4dd03f44ebbac657eb396bd07cd497eeba72d3fdd3f98845799e68a4845b0.css?body=1" for ::1 at 2015-11-09 13:19:46 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-09 13:19:46 -0500
+
+
+Started GET "/assets/slick.min.self-951614bf2523be9cebacc10dc2a6041d8c724b2a115e74c1590794af04b0ed39.js?body=1" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/bootstrap.min.self-579911c39d3e830500b3d9c038b4d778b89c5c82839d5507b797b648fdce64ba.js?body=1" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/application.self-c602094c7ea90e03b6331fcdd3638a4c24139e7efacd1c9526a842e9907d72d6.js?body=1" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/serenitylogoimage-e3a5e7e5e003ff617d3fd677131897f538b757589b36eaa160a5925b4149788a.png" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/headerimage-8e073f8ce7a7382d8343dde62696dd323bf42a7c1e03bca68ea3398f3f03c365.png" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/2-aa3b1825a0450da086480a6a6b84532f0e7796f1ce504c7ef81d3d83d19b8285.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/1-8579fc28efc4465bf9a67800813ccc0a464edcf8755f6af0100868197024a003.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/treetopimage-ce1d3376fe899866f6f3c223777387209977319249bdc1557936929aa4e63e5a.png" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/4-e3c2e758374e98225f83de0d71a5419edbb17ea7d420116b0c483a9d0be273f5.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/3-7a7ef20f535034232954837909eeadfe00eb6674f3c46c618951a0a06eced718.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/5-61ed87d88d8b6b497940997b6f7bb1ebf22fef97fd3fc1893a3d5e255bb8295c.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/6-a947ebbf67fcd9faf82fec3e45ec804982d748c99ca3d4092246a29abecf24db.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/7-4968aade6eb7e3a7f89a7def366116fc02ba2756e106501155001014904cc929.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/8-357dab73c49eb1237ed56b99c71bfc38ccab560ed1cb4601cad6ec2f04e06e0f.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/9-2324c54f15b6176d04bbdb55feff7578b71354aee22474dc85637b7c95ae64cc.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/11-7610735039b83f4f1ea83ad1b55847bf5a0235d9c9b064a324b9495fa2c4bccc.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan1_Claire/10-c58b84236fdb9a2ccf75c6c0bce545b1b4b52fa369b9e7a0b195036ae483a568.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_1-7f4a089c16008fa6bd7a094c19b8e0b962b68c48e077899e7fe3aa86ffe979b2.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_2-c0e813631b953a4eabd78f428ecb67c0d95ef3981794f371ae13a212c67b54b1.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_3-43abfa73a19d4e20ff788b21fed1ff5cff2b0eb3e94f989b4e539a7d3c25e44a.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_4-bf62ae05e43842a6e07412f89c4a1fcb8c33d4a3afbeffceb0d9f5e198a67933.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_5-ef5c80602f81433a400f1d9983709428caef0e29f96ff10dc28cacd4c9ab1f3d.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_6-e71e7e48f9a670fe5f19f88f2e003602373d9ced326ea94f1e4a30bc47e07f98.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_7-5bcdfbcb228504fb26e524886427a5018efae55b866b2b316969dbc616e64795.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_8-414011fb28ec68e497cf83c552cec2501b982150f10bec50b28b4d85bc79f54d.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_9-2d894a6719146003a0eb1a027529dcd6a8a5bb34248e5eac7394671c58dbf5f3.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_10-8dd02d89b1febeb2678a4af2e89f264c397bd0a421795b7adf6a3547c0f2b40d.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_11-0722b99d2df54ef304d4651a02a753f0340b6472b0069e1a1627f892856c77e3.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_12-29b55521580de41da14e96d5ff65fb23794788ff56501df860a40c5696b9d069.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_1-b58f7893b94d63b92b140261f928b228bbbba21f863c52e611006902bf8d073e.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_2-088ee3d8570371c7d1eadb9266e319cab12a3093473dfb29188f23281d6bf338.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_3-5f61f541f58528f470bb53345d96424db866be0119392aa7b403371ecf1ad4fd.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_4-ef93a5b74e3102849c58fa56ca4fefe879809d64ba8f92d512bc03dcab277d36.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_5-cf853c5c28320ffb04cc7442a5a2352f0d4ad7f15edcc3eda3b340eddcafd11e.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_6-7b009e1f9a995d7e013a62b9316412d1d607fa571920b4749ef4c6c06f53eb33.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_7-ff785a34cd7912c974f62730659f8385ee3bd1c941527cd56cd6f5986715ab1e.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_8-2d382c4758442b688dbe23934d3bfa892dff0fbfe625b19d90e0ac85a4c61fa1.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_9-54d1de8958f75f4ff7c2c408836a7324322939198818750bf4e0f451ed648055.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_10-2e6037ed246ae852566e69b39130439fe744b72518e41fe6455078e2405009c9.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_1-b3e8c03f5a322a889f0827004eb34f1cf87351b5f2e16e82392507e36060f141.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_2-76ffe044293f86fc715a5a5ddfb6f5c295902f22f91f584cdfb825854547bdc4.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_3-b0a5bdb37ffc12afdfb897bfde5683f1d7caec3d0068f9dc09e23979f53f7c36.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_4-ec71638f8e4869b462b391712143869cbbfaacd021d4a6bdb8223063f0ee6088.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_5-93bf1809d0bc5a6344959b2482c646bfc8a1f38ecbb4f9dfb48d55f3bcb3f157.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_6-b04b5fe9608d19dbdb8a120145d1f3b8ebe174a2ac5a78ec2fe512fabfbef04e.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_2-6df8a6cb8f35ef135bfd76fe492c6a76a1862978d31bc21b746dd304e39c0c37.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_1-15079b5717524f5cbd1fe547171b365bdd4b6cb9db557f52a00ab16a4c34e65c.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_3-213e9f8a1d93645c77ed8d11ea521b93b0c5943e91b0a09e51f4550f9b9d44cb.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_4-a8c251c4f6c3f65ead854ce3150fffda38dd892beeeb02b406d7c1f11790e17a.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_5-f5451ba6e23f947b3d1259eb3906dea63df3d1321ad279bc0ed68641fcef67b8.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_6-fffdb59a7a203ad61c6013921fd06ddb4d0ad048b702faec16d2b04ac0fffc22.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_7-6511ab68e0f13861c837bb41f91665002004871ca6739691f6a7597470ee5ec6.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_1-1d74d594118da6e08ab5d087ceb6d8ca7619a45a968bd7549077045d4270826e.jpg" for ::1 at 2015-11-09 13:19:47 -0500
+
+
+Started GET "/images/ajax-loader.gif" for ::1 at 2015-11-09 13:19:47 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/ajax-loader.gif"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.9ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (179.0ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.4ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (173.3ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (459.3ms)
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_2-6c4dc691b6bed2964db88656c27a97026cfb04bc89d9ff18213fde40b56fbb04.jpg" for ::1 at 2015-11-09 13:19:48 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_3-1dc9a81a8f5d9e9adb365475e51f188c081dec7f50a7cfcd9a18bf07dc96ca19.jpg" for ::1 at 2015-11-09 13:19:48 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_4-f6d2202e591a158d4a0b616eed2d80a23866acf2a2b3d6625f94d351d97ed521.jpg" for ::1 at 2015-11-09 13:19:48 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_5-e693b457363c789d30e7b69b95b727d0f43a34e8055af61614f9bc8c18b9db27.jpg" for ::1 at 2015-11-09 13:19:48 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_6-461099c76f36568d643b39d1a922d180c4fbb7dd1e3e6d1adc727d7665bb030b.jpg" for ::1 at 2015-11-09 13:19:48 -0500
+
+
+Started GET "/assets/arrowrightimage.png" for ::1 at 2015-11-09 13:19:48 -0500
+
+
+Started GET "/assets/arrowleftimage.png" for ::1 at 2015-11-09 13:19:48 -0500
+
+
+Started GET "/assets/floorplanbbigimage1.png" for ::1 at 2015-11-09 13:19:50 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_3.jpg" for ::1 at 2015-11-09 13:19:53 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_1.jpg" for ::1 at 2015-11-09 13:19:55 -0500
+
+
+Started GET "/assets/floorplanabigimage1.png" for ::1 at 2015-11-09 13:19:59 -0500
+
+
+Started GET "/assets/Plan1_Claire/2.jpg" for ::1 at 2015-11-09 13:20:01 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_1.jpg" for ::1 at 2015-11-09 13:20:04 -0500
+
+
+Started GET "/plans" for ::1 at 2015-11-09 13:21:27 -0500
+Processing by PagesController#floorplans as HTML
+  Rendered shared/_header.html.haml (12.7ms)
+  Rendered shared/_footer.html.haml (0.2ms)
+  Rendered pages/floorplans.html.haml within layouts/application (623.2ms)
+Completed 200 OK in 864ms (Views: 864.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/bootstrap.min.self-579911c39d3e830500b3d9c038b4d778b89c5c82839d5507b797b648fdce64ba.js?body=1" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/application.self-fef4dd03f44ebbac657eb396bd07cd497eeba72d3fdd3f98845799e68a4845b0.css?body=1" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/application.self-d866c3071e2cc2b817b2621f33b86fd93cae8b5f8843041dd03208bdf18ccd04.js?body=1" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/slick.min.self-951614bf2523be9cebacc10dc2a6041d8c724b2a115e74c1590794af04b0ed39.js?body=1" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/serenitylogoimage-e3a5e7e5e003ff617d3fd677131897f538b757589b36eaa160a5925b4149788a.png" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/2-aa3b1825a0450da086480a6a6b84532f0e7796f1ce504c7ef81d3d83d19b8285.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/3-7a7ef20f535034232954837909eeadfe00eb6674f3c46c618951a0a06eced718.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/1-8579fc28efc4465bf9a67800813ccc0a464edcf8755f6af0100868197024a003.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/headerimage-8e073f8ce7a7382d8343dde62696dd323bf42a7c1e03bca68ea3398f3f03c365.png" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/treetopimage-ce1d3376fe899866f6f3c223777387209977319249bdc1557936929aa4e63e5a.png" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/4-e3c2e758374e98225f83de0d71a5419edbb17ea7d420116b0c483a9d0be273f5.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/5-61ed87d88d8b6b497940997b6f7bb1ebf22fef97fd3fc1893a3d5e255bb8295c.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/6-a947ebbf67fcd9faf82fec3e45ec804982d748c99ca3d4092246a29abecf24db.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/7-4968aade6eb7e3a7f89a7def366116fc02ba2756e106501155001014904cc929.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/8-357dab73c49eb1237ed56b99c71bfc38ccab560ed1cb4601cad6ec2f04e06e0f.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/10-c58b84236fdb9a2ccf75c6c0bce545b1b4b52fa369b9e7a0b195036ae483a568.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/9-2324c54f15b6176d04bbdb55feff7578b71354aee22474dc85637b7c95ae64cc.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan1_Claire/11-7610735039b83f4f1ea83ad1b55847bf5a0235d9c9b064a324b9495fa2c4bccc.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_1-7f4a089c16008fa6bd7a094c19b8e0b962b68c48e077899e7fe3aa86ffe979b2.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_2-c0e813631b953a4eabd78f428ecb67c0d95ef3981794f371ae13a212c67b54b1.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_3-43abfa73a19d4e20ff788b21fed1ff5cff2b0eb3e94f989b4e539a7d3c25e44a.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_4-bf62ae05e43842a6e07412f89c4a1fcb8c33d4a3afbeffceb0d9f5e198a67933.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_5-ef5c80602f81433a400f1d9983709428caef0e29f96ff10dc28cacd4c9ab1f3d.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_6-e71e7e48f9a670fe5f19f88f2e003602373d9ced326ea94f1e4a30bc47e07f98.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_7-5bcdfbcb228504fb26e524886427a5018efae55b866b2b316969dbc616e64795.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_8-414011fb28ec68e497cf83c552cec2501b982150f10bec50b28b4d85bc79f54d.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_9-2d894a6719146003a0eb1a027529dcd6a8a5bb34248e5eac7394671c58dbf5f3.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_10-8dd02d89b1febeb2678a4af2e89f264c397bd0a421795b7adf6a3547c0f2b40d.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_11-0722b99d2df54ef304d4651a02a753f0340b6472b0069e1a1627f892856c77e3.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_12-29b55521580de41da14e96d5ff65fb23794788ff56501df860a40c5696b9d069.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_1-b58f7893b94d63b92b140261f928b228bbbba21f863c52e611006902bf8d073e.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_2-088ee3d8570371c7d1eadb9266e319cab12a3093473dfb29188f23281d6bf338.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_3-5f61f541f58528f470bb53345d96424db866be0119392aa7b403371ecf1ad4fd.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_4-ef93a5b74e3102849c58fa56ca4fefe879809d64ba8f92d512bc03dcab277d36.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_5-cf853c5c28320ffb04cc7442a5a2352f0d4ad7f15edcc3eda3b340eddcafd11e.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_6-7b009e1f9a995d7e013a62b9316412d1d607fa571920b4749ef4c6c06f53eb33.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_7-ff785a34cd7912c974f62730659f8385ee3bd1c941527cd56cd6f5986715ab1e.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_8-2d382c4758442b688dbe23934d3bfa892dff0fbfe625b19d90e0ac85a4c61fa1.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_9-54d1de8958f75f4ff7c2c408836a7324322939198818750bf4e0f451ed648055.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_10-2e6037ed246ae852566e69b39130439fe744b72518e41fe6455078e2405009c9.jpg" for ::1 at 2015-11-09 13:21:28 -0500
+
+
+Started GET "/images/ajax-loader.gif" for ::1 at 2015-11-09 13:21:28 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/ajax-loader.gif"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (141.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (75.1ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (166.6ms)
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_1-b3e8c03f5a322a889f0827004eb34f1cf87351b5f2e16e82392507e36060f141.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_2-76ffe044293f86fc715a5a5ddfb6f5c295902f22f91f584cdfb825854547bdc4.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_3-b0a5bdb37ffc12afdfb897bfde5683f1d7caec3d0068f9dc09e23979f53f7c36.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_4-ec71638f8e4869b462b391712143869cbbfaacd021d4a6bdb8223063f0ee6088.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/arrowleftimage.png" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_5-93bf1809d0bc5a6344959b2482c646bfc8a1f38ecbb4f9dfb48d55f3bcb3f157.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_6-b04b5fe9608d19dbdb8a120145d1f3b8ebe174a2ac5a78ec2fe512fabfbef04e.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/arrowrightimage.png" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_1-15079b5717524f5cbd1fe547171b365bdd4b6cb9db557f52a00ab16a4c34e65c.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_2-6df8a6cb8f35ef135bfd76fe492c6a76a1862978d31bc21b746dd304e39c0c37.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_3-213e9f8a1d93645c77ed8d11ea521b93b0c5943e91b0a09e51f4550f9b9d44cb.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_4-a8c251c4f6c3f65ead854ce3150fffda38dd892beeeb02b406d7c1f11790e17a.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_5-f5451ba6e23f947b3d1259eb3906dea63df3d1321ad279bc0ed68641fcef67b8.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_6-fffdb59a7a203ad61c6013921fd06ddb4d0ad048b702faec16d2b04ac0fffc22.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_7-6511ab68e0f13861c837bb41f91665002004871ca6739691f6a7597470ee5ec6.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_1-1d74d594118da6e08ab5d087ceb6d8ca7619a45a968bd7549077045d4270826e.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_2-6c4dc691b6bed2964db88656c27a97026cfb04bc89d9ff18213fde40b56fbb04.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_3-1dc9a81a8f5d9e9adb365475e51f188c081dec7f50a7cfcd9a18bf07dc96ca19.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_4-f6d2202e591a158d4a0b616eed2d80a23866acf2a2b3d6625f94d351d97ed521.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_5-e693b457363c789d30e7b69b95b727d0f43a34e8055af61614f9bc8c18b9db27.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_6-461099c76f36568d643b39d1a922d180c4fbb7dd1e3e6d1adc727d7665bb030b.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan1_Claire/1.jpg" for ::1 at 2015-11-09 13:21:29 -0500
+
+
+Started GET "/assets/Plan1_Claire/2.jpg" for ::1 at 2015-11-09 13:21:31 -0500
+
+
+Started GET "/assets/Plan1_Claire/1.jpg" for ::1 at 2015-11-09 13:21:32 -0500
+
+
+Started GET "/assets/Plan1_Claire/5.jpg" for ::1 at 2015-11-09 13:21:33 -0500
+
+
+Started GET "/plans" for ::1 at 2015-11-09 13:21:57 -0500
+Processing by PagesController#floorplans as HTML
+  Rendered shared/_header.html.haml (11.3ms)
+  Rendered shared/_footer.html.haml (0.2ms)
+  Rendered pages/floorplans.html.haml within layouts/application (407.3ms)
+Completed 200 OK in 636ms (Views: 635.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fef4dd03f44ebbac657eb396bd07cd497eeba72d3fdd3f98845799e68a4845b0.css?body=1" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/bootstrap.min.self-579911c39d3e830500b3d9c038b4d778b89c5c82839d5507b797b648fdce64ba.js?body=1" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/application.self-a533196fc1d610759d4602c85701a9c95c6ceefea7843e5fbb4df41003d9e249.js?body=1" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/slick.min.self-951614bf2523be9cebacc10dc2a6041d8c724b2a115e74c1590794af04b0ed39.js?body=1" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/serenitylogoimage-e3a5e7e5e003ff617d3fd677131897f538b757589b36eaa160a5925b4149788a.png" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/headerimage-8e073f8ce7a7382d8343dde62696dd323bf42a7c1e03bca68ea3398f3f03c365.png" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/2-aa3b1825a0450da086480a6a6b84532f0e7796f1ce504c7ef81d3d83d19b8285.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/treetopimage-ce1d3376fe899866f6f3c223777387209977319249bdc1557936929aa4e63e5a.png" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/3-7a7ef20f535034232954837909eeadfe00eb6674f3c46c618951a0a06eced718.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/1-8579fc28efc4465bf9a67800813ccc0a464edcf8755f6af0100868197024a003.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/4-e3c2e758374e98225f83de0d71a5419edbb17ea7d420116b0c483a9d0be273f5.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/5-61ed87d88d8b6b497940997b6f7bb1ebf22fef97fd3fc1893a3d5e255bb8295c.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/6-a947ebbf67fcd9faf82fec3e45ec804982d748c99ca3d4092246a29abecf24db.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/8-357dab73c49eb1237ed56b99c71bfc38ccab560ed1cb4601cad6ec2f04e06e0f.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/7-4968aade6eb7e3a7f89a7def366116fc02ba2756e106501155001014904cc929.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/9-2324c54f15b6176d04bbdb55feff7578b71354aee22474dc85637b7c95ae64cc.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/10-c58b84236fdb9a2ccf75c6c0bce545b1b4b52fa369b9e7a0b195036ae483a568.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/11-7610735039b83f4f1ea83ad1b55847bf5a0235d9c9b064a324b9495fa2c4bccc.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_1-7f4a089c16008fa6bd7a094c19b8e0b962b68c48e077899e7fe3aa86ffe979b2.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_2-c0e813631b953a4eabd78f428ecb67c0d95ef3981794f371ae13a212c67b54b1.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_3-43abfa73a19d4e20ff788b21fed1ff5cff2b0eb3e94f989b4e539a7d3c25e44a.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_4-bf62ae05e43842a6e07412f89c4a1fcb8c33d4a3afbeffceb0d9f5e198a67933.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_5-ef5c80602f81433a400f1d9983709428caef0e29f96ff10dc28cacd4c9ab1f3d.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_6-e71e7e48f9a670fe5f19f88f2e003602373d9ced326ea94f1e4a30bc47e07f98.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_7-5bcdfbcb228504fb26e524886427a5018efae55b866b2b316969dbc616e64795.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_8-414011fb28ec68e497cf83c552cec2501b982150f10bec50b28b4d85bc79f54d.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_9-2d894a6719146003a0eb1a027529dcd6a8a5bb34248e5eac7394671c58dbf5f3.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_1-b58f7893b94d63b92b140261f928b228bbbba21f863c52e611006902bf8d073e.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_3-5f61f541f58528f470bb53345d96424db866be0119392aa7b403371ecf1ad4fd.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_2-088ee3d8570371c7d1eadb9266e319cab12a3093473dfb29188f23281d6bf338.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_4-ef93a5b74e3102849c58fa56ca4fefe879809d64ba8f92d512bc03dcab277d36.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_5-cf853c5c28320ffb04cc7442a5a2352f0d4ad7f15edcc3eda3b340eddcafd11e.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_6-7b009e1f9a995d7e013a62b9316412d1d607fa571920b4749ef4c6c06f53eb33.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_7-ff785a34cd7912c974f62730659f8385ee3bd1c941527cd56cd6f5986715ab1e.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_8-2d382c4758442b688dbe23934d3bfa892dff0fbfe625b19d90e0ac85a4c61fa1.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_11-0722b99d2df54ef304d4651a02a753f0340b6472b0069e1a1627f892856c77e3.jpg" for ::1 at 2015-11-09 13:21:58 -0500
+
+
+Started GET "/images/ajax-loader.gif" for ::1 at 2015-11-09 13:21:58 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/ajax-loader.gif"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.6ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (157.8ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (75.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (174.7ms)
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_10-8dd02d89b1febeb2678a4af2e89f264c397bd0a421795b7adf6a3547c0f2b40d.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_9-54d1de8958f75f4ff7c2c408836a7324322939198818750bf4e0f451ed648055.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_12-29b55521580de41da14e96d5ff65fb23794788ff56501df860a40c5696b9d069.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/arrowleftimage.png" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/arrowrightimage.png" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_1-b3e8c03f5a322a889f0827004eb34f1cf87351b5f2e16e82392507e36060f141.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_2-76ffe044293f86fc715a5a5ddfb6f5c295902f22f91f584cdfb825854547bdc4.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_3-b0a5bdb37ffc12afdfb897bfde5683f1d7caec3d0068f9dc09e23979f53f7c36.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_4-ec71638f8e4869b462b391712143869cbbfaacd021d4a6bdb8223063f0ee6088.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_5-93bf1809d0bc5a6344959b2482c646bfc8a1f38ecbb4f9dfb48d55f3bcb3f157.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_6-b04b5fe9608d19dbdb8a120145d1f3b8ebe174a2ac5a78ec2fe512fabfbef04e.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_1-15079b5717524f5cbd1fe547171b365bdd4b6cb9db557f52a00ab16a4c34e65c.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_2-6df8a6cb8f35ef135bfd76fe492c6a76a1862978d31bc21b746dd304e39c0c37.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_3-213e9f8a1d93645c77ed8d11ea521b93b0c5943e91b0a09e51f4550f9b9d44cb.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_4-a8c251c4f6c3f65ead854ce3150fffda38dd892beeeb02b406d7c1f11790e17a.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_5-f5451ba6e23f947b3d1259eb3906dea63df3d1321ad279bc0ed68641fcef67b8.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_6-fffdb59a7a203ad61c6013921fd06ddb4d0ad048b702faec16d2b04ac0fffc22.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_7-6511ab68e0f13861c837bb41f91665002004871ca6739691f6a7597470ee5ec6.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_1-1d74d594118da6e08ab5d087ceb6d8ca7619a45a968bd7549077045d4270826e.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_2-6c4dc691b6bed2964db88656c27a97026cfb04bc89d9ff18213fde40b56fbb04.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_3-1dc9a81a8f5d9e9adb365475e51f188c081dec7f50a7cfcd9a18bf07dc96ca19.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_4-f6d2202e591a158d4a0b616eed2d80a23866acf2a2b3d6625f94d351d97ed521.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_5-e693b457363c789d30e7b69b95b727d0f43a34e8055af61614f9bc8c18b9db27.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_6-461099c76f36568d643b39d1a922d180c4fbb7dd1e3e6d1adc727d7665bb030b.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_10-2e6037ed246ae852566e69b39130439fe744b72518e41fe6455078e2405009c9.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan1_Claire/1.jpg" for ::1 at 2015-11-09 13:21:59 -0500
+
+
+Started GET "/assets/Plan1_Claire/7.jpg" for ::1 at 2015-11-09 13:22:04 -0500
+
+
+Started GET "/assets/Plan1_Claire/5.jpg" for ::1 at 2015-11-09 13:22:05 -0500
+
+
+Started GET "/assets/Plan1_Claire/1.jpg" for ::1 at 2015-11-09 13:22:12 -0500
+
+
+Started GET "/plans" for ::1 at 2015-11-09 13:22:47 -0500
+Processing by PagesController#floorplans as HTML
+  Rendered shared/_header.html.haml (17.9ms)
+  Rendered shared/_footer.html.haml (0.2ms)
+  Rendered pages/floorplans.html.haml within layouts/application (430.7ms)
+Completed 200 OK in 651ms (Views: 650.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/bootstrap.min.self-579911c39d3e830500b3d9c038b4d778b89c5c82839d5507b797b648fdce64ba.js?body=1" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/application.self-fef4dd03f44ebbac657eb396bd07cd497eeba72d3fdd3f98845799e68a4845b0.css?body=1" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/slick.min.self-951614bf2523be9cebacc10dc2a6041d8c724b2a115e74c1590794af04b0ed39.js?body=1" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/application.self-c351aab04dc530c9c833c847027c69e6e78630290e397cc65ad06dd525956f04.js?body=1" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/serenitylogoimage-e3a5e7e5e003ff617d3fd677131897f538b757589b36eaa160a5925b4149788a.png" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/headerimage-8e073f8ce7a7382d8343dde62696dd323bf42a7c1e03bca68ea3398f3f03c365.png" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/treetopimage-ce1d3376fe899866f6f3c223777387209977319249bdc1557936929aa4e63e5a.png" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/1-8579fc28efc4465bf9a67800813ccc0a464edcf8755f6af0100868197024a003.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/4-e3c2e758374e98225f83de0d71a5419edbb17ea7d420116b0c483a9d0be273f5.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/2-aa3b1825a0450da086480a6a6b84532f0e7796f1ce504c7ef81d3d83d19b8285.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/3-7a7ef20f535034232954837909eeadfe00eb6674f3c46c618951a0a06eced718.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/5-61ed87d88d8b6b497940997b6f7bb1ebf22fef97fd3fc1893a3d5e255bb8295c.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/6-a947ebbf67fcd9faf82fec3e45ec804982d748c99ca3d4092246a29abecf24db.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/7-4968aade6eb7e3a7f89a7def366116fc02ba2756e106501155001014904cc929.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/8-357dab73c49eb1237ed56b99c71bfc38ccab560ed1cb4601cad6ec2f04e06e0f.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/9-2324c54f15b6176d04bbdb55feff7578b71354aee22474dc85637b7c95ae64cc.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/10-c58b84236fdb9a2ccf75c6c0bce545b1b4b52fa369b9e7a0b195036ae483a568.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan1_Claire/11-7610735039b83f4f1ea83ad1b55847bf5a0235d9c9b064a324b9495fa2c4bccc.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_1-7f4a089c16008fa6bd7a094c19b8e0b962b68c48e077899e7fe3aa86ffe979b2.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_2-c0e813631b953a4eabd78f428ecb67c0d95ef3981794f371ae13a212c67b54b1.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_3-43abfa73a19d4e20ff788b21fed1ff5cff2b0eb3e94f989b4e539a7d3c25e44a.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_4-bf62ae05e43842a6e07412f89c4a1fcb8c33d4a3afbeffceb0d9f5e198a67933.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_5-ef5c80602f81433a400f1d9983709428caef0e29f96ff10dc28cacd4c9ab1f3d.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_6-e71e7e48f9a670fe5f19f88f2e003602373d9ced326ea94f1e4a30bc47e07f98.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_7-5bcdfbcb228504fb26e524886427a5018efae55b866b2b316969dbc616e64795.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_8-414011fb28ec68e497cf83c552cec2501b982150f10bec50b28b4d85bc79f54d.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_9-2d894a6719146003a0eb1a027529dcd6a8a5bb34248e5eac7394671c58dbf5f3.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_10-8dd02d89b1febeb2678a4af2e89f264c397bd0a421795b7adf6a3547c0f2b40d.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_11-0722b99d2df54ef304d4651a02a753f0340b6472b0069e1a1627f892856c77e3.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_12-29b55521580de41da14e96d5ff65fb23794788ff56501df860a40c5696b9d069.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_1-b58f7893b94d63b92b140261f928b228bbbba21f863c52e611006902bf8d073e.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_2-088ee3d8570371c7d1eadb9266e319cab12a3093473dfb29188f23281d6bf338.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_3-5f61f541f58528f470bb53345d96424db866be0119392aa7b403371ecf1ad4fd.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_4-ef93a5b74e3102849c58fa56ca4fefe879809d64ba8f92d512bc03dcab277d36.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_5-cf853c5c28320ffb04cc7442a5a2352f0d4ad7f15edcc3eda3b340eddcafd11e.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_6-7b009e1f9a995d7e013a62b9316412d1d607fa571920b4749ef4c6c06f53eb33.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_7-ff785a34cd7912c974f62730659f8385ee3bd1c941527cd56cd6f5986715ab1e.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_8-2d382c4758442b688dbe23934d3bfa892dff0fbfe625b19d90e0ac85a4c61fa1.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_9-54d1de8958f75f4ff7c2c408836a7324322939198818750bf4e0f451ed648055.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_10-2e6037ed246ae852566e69b39130439fe744b72518e41fe6455078e2405009c9.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_1-b3e8c03f5a322a889f0827004eb34f1cf87351b5f2e16e82392507e36060f141.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_2-76ffe044293f86fc715a5a5ddfb6f5c295902f22f91f584cdfb825854547bdc4.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_3-b0a5bdb37ffc12afdfb897bfde5683f1d7caec3d0068f9dc09e23979f53f7c36.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_4-ec71638f8e4869b462b391712143869cbbfaacd021d4a6bdb8223063f0ee6088.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_5-93bf1809d0bc5a6344959b2482c646bfc8a1f38ecbb4f9dfb48d55f3bcb3f157.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_1-15079b5717524f5cbd1fe547171b365bdd4b6cb9db557f52a00ab16a4c34e65c.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_6-b04b5fe9608d19dbdb8a120145d1f3b8ebe174a2ac5a78ec2fe512fabfbef04e.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_2-6df8a6cb8f35ef135bfd76fe492c6a76a1862978d31bc21b746dd304e39c0c37.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_3-213e9f8a1d93645c77ed8d11ea521b93b0c5943e91b0a09e51f4550f9b9d44cb.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_4-a8c251c4f6c3f65ead854ce3150fffda38dd892beeeb02b406d7c1f11790e17a.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_5-f5451ba6e23f947b3d1259eb3906dea63df3d1321ad279bc0ed68641fcef67b8.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_6-fffdb59a7a203ad61c6013921fd06ddb4d0ad048b702faec16d2b04ac0fffc22.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_7-6511ab68e0f13861c837bb41f91665002004871ca6739691f6a7597470ee5ec6.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_1-1d74d594118da6e08ab5d087ceb6d8ca7619a45a968bd7549077045d4270826e.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_2-6c4dc691b6bed2964db88656c27a97026cfb04bc89d9ff18213fde40b56fbb04.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_3-1dc9a81a8f5d9e9adb365475e51f188c081dec7f50a7cfcd9a18bf07dc96ca19.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_4-f6d2202e591a158d4a0b616eed2d80a23866acf2a2b3d6625f94d351d97ed521.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_5-e693b457363c789d30e7b69b95b727d0f43a34e8055af61614f9bc8c18b9db27.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_6-461099c76f36568d643b39d1a922d180c4fbb7dd1e3e6d1adc727d7665bb030b.jpg" for ::1 at 2015-11-09 13:22:48 -0500
+
+
+Started GET "/images/ajax-loader.gif" for ::1 at 2015-11-09 13:22:48 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/ajax-loader.gif"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (140.2ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (5.0ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (250.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (489.6ms)
+
+
+Started GET "/assets/arrowleftimage.png" for ::1 at 2015-11-09 13:22:49 -0500
+
+
+Started GET "/assets/arrowrightimage.png" for ::1 at 2015-11-09 13:22:49 -0500
+
+
+Started GET "/assets/Plan1_Claire/1.jpg" for ::1 at 2015-11-09 13:22:52 -0500
+
+
+Started GET "/assets/Plan1_Claire/3.jpg" for ::1 at 2015-11-09 13:22:58 -0500
+
+
+Started GET "/assets/Plan1_Claire/4.jpg" for ::1 at 2015-11-09 13:22:58 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2-1.jpg" for ::1 at 2015-11-09 13:23:04 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/Plan2_Inverness/Plan2-1.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.6ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (243.0ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (132.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (262.7ms)
+
+
+Started GET "/plans" for ::1 at 2015-11-09 13:23:19 -0500
+Processing by PagesController#floorplans as HTML
+  Rendered shared/_header.html.haml (22.8ms)
+  Rendered shared/_footer.html.haml (0.2ms)
+  Rendered pages/floorplans.html.haml within layouts/application (454.4ms)
+Completed 200 OK in 678ms (Views: 677.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fef4dd03f44ebbac657eb396bd07cd497eeba72d3fdd3f98845799e68a4845b0.css?body=1" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/bootstrap.min.self-579911c39d3e830500b3d9c038b4d778b89c5c82839d5507b797b648fdce64ba.js?body=1" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/slick.min.self-951614bf2523be9cebacc10dc2a6041d8c724b2a115e74c1590794af04b0ed39.js?body=1" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/application.self-0873ebc171da2599429f56db2cc3706c3bba4be13442c5b2ab5c53d41159c78d.js?body=1" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/serenitylogoimage-e3a5e7e5e003ff617d3fd677131897f538b757589b36eaa160a5925b4149788a.png" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/headerimage-8e073f8ce7a7382d8343dde62696dd323bf42a7c1e03bca68ea3398f3f03c365.png" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/1-8579fc28efc4465bf9a67800813ccc0a464edcf8755f6af0100868197024a003.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/2-aa3b1825a0450da086480a6a6b84532f0e7796f1ce504c7ef81d3d83d19b8285.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/4-e3c2e758374e98225f83de0d71a5419edbb17ea7d420116b0c483a9d0be273f5.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/3-7a7ef20f535034232954837909eeadfe00eb6674f3c46c618951a0a06eced718.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/treetopimage-ce1d3376fe899866f6f3c223777387209977319249bdc1557936929aa4e63e5a.png" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/5-61ed87d88d8b6b497940997b6f7bb1ebf22fef97fd3fc1893a3d5e255bb8295c.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/6-a947ebbf67fcd9faf82fec3e45ec804982d748c99ca3d4092246a29abecf24db.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/7-4968aade6eb7e3a7f89a7def366116fc02ba2756e106501155001014904cc929.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/8-357dab73c49eb1237ed56b99c71bfc38ccab560ed1cb4601cad6ec2f04e06e0f.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/9-2324c54f15b6176d04bbdb55feff7578b71354aee22474dc85637b7c95ae64cc.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/10-c58b84236fdb9a2ccf75c6c0bce545b1b4b52fa369b9e7a0b195036ae483a568.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan1_Claire/11-7610735039b83f4f1ea83ad1b55847bf5a0235d9c9b064a324b9495fa2c4bccc.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_1-7f4a089c16008fa6bd7a094c19b8e0b962b68c48e077899e7fe3aa86ffe979b2.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_2-c0e813631b953a4eabd78f428ecb67c0d95ef3981794f371ae13a212c67b54b1.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_3-43abfa73a19d4e20ff788b21fed1ff5cff2b0eb3e94f989b4e539a7d3c25e44a.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_4-bf62ae05e43842a6e07412f89c4a1fcb8c33d4a3afbeffceb0d9f5e198a67933.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_5-ef5c80602f81433a400f1d9983709428caef0e29f96ff10dc28cacd4c9ab1f3d.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_6-e71e7e48f9a670fe5f19f88f2e003602373d9ced326ea94f1e4a30bc47e07f98.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_7-5bcdfbcb228504fb26e524886427a5018efae55b866b2b316969dbc616e64795.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_8-414011fb28ec68e497cf83c552cec2501b982150f10bec50b28b4d85bc79f54d.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_9-2d894a6719146003a0eb1a027529dcd6a8a5bb34248e5eac7394671c58dbf5f3.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_10-8dd02d89b1febeb2678a4af2e89f264c397bd0a421795b7adf6a3547c0f2b40d.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_11-0722b99d2df54ef304d4651a02a753f0340b6472b0069e1a1627f892856c77e3.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_12-29b55521580de41da14e96d5ff65fb23794788ff56501df860a40c5696b9d069.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_1-b58f7893b94d63b92b140261f928b228bbbba21f863c52e611006902bf8d073e.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_2-088ee3d8570371c7d1eadb9266e319cab12a3093473dfb29188f23281d6bf338.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_3-5f61f541f58528f470bb53345d96424db866be0119392aa7b403371ecf1ad4fd.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_4-ef93a5b74e3102849c58fa56ca4fefe879809d64ba8f92d512bc03dcab277d36.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_5-cf853c5c28320ffb04cc7442a5a2352f0d4ad7f15edcc3eda3b340eddcafd11e.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_6-7b009e1f9a995d7e013a62b9316412d1d607fa571920b4749ef4c6c06f53eb33.jpg" for ::1 at 2015-11-09 13:23:20 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_7-ff785a34cd7912c974f62730659f8385ee3bd1c941527cd56cd6f5986715ab1e.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_8-2d382c4758442b688dbe23934d3bfa892dff0fbfe625b19d90e0ac85a4c61fa1.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_9-54d1de8958f75f4ff7c2c408836a7324322939198818750bf4e0f451ed648055.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_10-2e6037ed246ae852566e69b39130439fe744b72518e41fe6455078e2405009c9.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_1-b3e8c03f5a322a889f0827004eb34f1cf87351b5f2e16e82392507e36060f141.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_2-76ffe044293f86fc715a5a5ddfb6f5c295902f22f91f584cdfb825854547bdc4.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_3-b0a5bdb37ffc12afdfb897bfde5683f1d7caec3d0068f9dc09e23979f53f7c36.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_4-ec71638f8e4869b462b391712143869cbbfaacd021d4a6bdb8223063f0ee6088.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_5-93bf1809d0bc5a6344959b2482c646bfc8a1f38ecbb4f9dfb48d55f3bcb3f157.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_6-b04b5fe9608d19dbdb8a120145d1f3b8ebe174a2ac5a78ec2fe512fabfbef04e.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_1-15079b5717524f5cbd1fe547171b365bdd4b6cb9db557f52a00ab16a4c34e65c.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_2-6df8a6cb8f35ef135bfd76fe492c6a76a1862978d31bc21b746dd304e39c0c37.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_3-213e9f8a1d93645c77ed8d11ea521b93b0c5943e91b0a09e51f4550f9b9d44cb.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_4-a8c251c4f6c3f65ead854ce3150fffda38dd892beeeb02b406d7c1f11790e17a.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_5-f5451ba6e23f947b3d1259eb3906dea63df3d1321ad279bc0ed68641fcef67b8.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_6-fffdb59a7a203ad61c6013921fd06ddb4d0ad048b702faec16d2b04ac0fffc22.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_7-6511ab68e0f13861c837bb41f91665002004871ca6739691f6a7597470ee5ec6.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_1-1d74d594118da6e08ab5d087ceb6d8ca7619a45a968bd7549077045d4270826e.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_2-6c4dc691b6bed2964db88656c27a97026cfb04bc89d9ff18213fde40b56fbb04.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_3-1dc9a81a8f5d9e9adb365475e51f188c081dec7f50a7cfcd9a18bf07dc96ca19.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_4-f6d2202e591a158d4a0b616eed2d80a23866acf2a2b3d6625f94d351d97ed521.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_5-e693b457363c789d30e7b69b95b727d0f43a34e8055af61614f9bc8c18b9db27.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_6-461099c76f36568d643b39d1a922d180c4fbb7dd1e3e6d1adc727d7665bb030b.jpg" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/images/ajax-loader.gif" for ::1 at 2015-11-09 13:23:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/ajax-loader.gif"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (138.6ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (119.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (393.7ms)
+
+
+Started GET "/assets/arrowleftimage.png" for ::1 at 2015-11-09 13:23:21 -0500
+
+
+Started GET "/assets/arrowrightimage.png" for ::1 at 2015-11-09 13:23:22 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_1.jpg" for ::1 at 2015-11-09 13:23:23 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_2.jpg" for ::1 at 2015-11-09 13:23:27 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_3.jpg" for ::1 at 2015-11-09 13:23:28 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_4.jpg" for ::1 at 2015-11-09 13:23:29 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_1.jpg" for ::1 at 2015-11-09 13:23:31 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_2.jpg" for ::1 at 2015-11-09 13:23:32 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_3.jpg" for ::1 at 2015-11-09 13:23:33 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_4.jpg" for ::1 at 2015-11-09 13:23:34 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_1.jpg" for ::1 at 2015-11-09 13:23:36 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_2.jpg" for ::1 at 2015-11-09 13:23:37 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_3.jpg" for ::1 at 2015-11-09 13:23:38 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_1.jpg" for ::1 at 2015-11-09 13:23:40 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_2.jpg" for ::1 at 2015-11-09 13:23:42 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_3.jpg" for ::1 at 2015-11-09 13:23:42 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_1.jpg" for ::1 at 2015-11-09 13:23:46 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_2.jpg" for ::1 at 2015-11-09 13:23:47 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_6.jpg" for ::1 at 2015-11-09 13:23:50 -0500
+
+
+Started GET "/plans" for ::1 at 2015-11-09 13:23:55 -0500
+Processing by PagesController#floorplans as HTML
+  Rendered shared/_header.html.haml (20.1ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+  Rendered pages/floorplans.html.haml within layouts/application (378.7ms)
+Completed 200 OK in 461ms (Views: 461.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/bootstrap.min.self-579911c39d3e830500b3d9c038b4d778b89c5c82839d5507b797b648fdce64ba.js?body=1" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/application.self-fef4dd03f44ebbac657eb396bd07cd497eeba72d3fdd3f98845799e68a4845b0.css?body=1" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/slick.min.self-951614bf2523be9cebacc10dc2a6041d8c724b2a115e74c1590794af04b0ed39.js?body=1" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/application.self-0873ebc171da2599429f56db2cc3706c3bba4be13442c5b2ab5c53d41159c78d.js?body=1" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/serenitylogoimage-e3a5e7e5e003ff617d3fd677131897f538b757589b36eaa160a5925b4149788a.png" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/headerimage-8e073f8ce7a7382d8343dde62696dd323bf42a7c1e03bca68ea3398f3f03c365.png" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/1-8579fc28efc4465bf9a67800813ccc0a464edcf8755f6af0100868197024a003.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/3-7a7ef20f535034232954837909eeadfe00eb6674f3c46c618951a0a06eced718.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/treetopimage-ce1d3376fe899866f6f3c223777387209977319249bdc1557936929aa4e63e5a.png" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/2-aa3b1825a0450da086480a6a6b84532f0e7796f1ce504c7ef81d3d83d19b8285.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/4-e3c2e758374e98225f83de0d71a5419edbb17ea7d420116b0c483a9d0be273f5.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/5-61ed87d88d8b6b497940997b6f7bb1ebf22fef97fd3fc1893a3d5e255bb8295c.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/6-a947ebbf67fcd9faf82fec3e45ec804982d748c99ca3d4092246a29abecf24db.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/7-4968aade6eb7e3a7f89a7def366116fc02ba2756e106501155001014904cc929.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/8-357dab73c49eb1237ed56b99c71bfc38ccab560ed1cb4601cad6ec2f04e06e0f.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/9-2324c54f15b6176d04bbdb55feff7578b71354aee22474dc85637b7c95ae64cc.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/10-c58b84236fdb9a2ccf75c6c0bce545b1b4b52fa369b9e7a0b195036ae483a568.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan1_Claire/11-7610735039b83f4f1ea83ad1b55847bf5a0235d9c9b064a324b9495fa2c4bccc.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_1-7f4a089c16008fa6bd7a094c19b8e0b962b68c48e077899e7fe3aa86ffe979b2.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_2-c0e813631b953a4eabd78f428ecb67c0d95ef3981794f371ae13a212c67b54b1.jpg" for ::1 at 2015-11-09 13:23:55 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_3-43abfa73a19d4e20ff788b21fed1ff5cff2b0eb3e94f989b4e539a7d3c25e44a.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_4-bf62ae05e43842a6e07412f89c4a1fcb8c33d4a3afbeffceb0d9f5e198a67933.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_5-ef5c80602f81433a400f1d9983709428caef0e29f96ff10dc28cacd4c9ab1f3d.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_6-e71e7e48f9a670fe5f19f88f2e003602373d9ced326ea94f1e4a30bc47e07f98.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_7-5bcdfbcb228504fb26e524886427a5018efae55b866b2b316969dbc616e64795.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_8-414011fb28ec68e497cf83c552cec2501b982150f10bec50b28b4d85bc79f54d.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_9-2d894a6719146003a0eb1a027529dcd6a8a5bb34248e5eac7394671c58dbf5f3.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_10-8dd02d89b1febeb2678a4af2e89f264c397bd0a421795b7adf6a3547c0f2b40d.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_12-29b55521580de41da14e96d5ff65fb23794788ff56501df860a40c5696b9d069.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_11-0722b99d2df54ef304d4651a02a753f0340b6472b0069e1a1627f892856c77e3.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_1-b58f7893b94d63b92b140261f928b228bbbba21f863c52e611006902bf8d073e.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_2-088ee3d8570371c7d1eadb9266e319cab12a3093473dfb29188f23281d6bf338.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_3-5f61f541f58528f470bb53345d96424db866be0119392aa7b403371ecf1ad4fd.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_4-ef93a5b74e3102849c58fa56ca4fefe879809d64ba8f92d512bc03dcab277d36.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_5-cf853c5c28320ffb04cc7442a5a2352f0d4ad7f15edcc3eda3b340eddcafd11e.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_6-7b009e1f9a995d7e013a62b9316412d1d607fa571920b4749ef4c6c06f53eb33.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_7-ff785a34cd7912c974f62730659f8385ee3bd1c941527cd56cd6f5986715ab1e.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_8-2d382c4758442b688dbe23934d3bfa892dff0fbfe625b19d90e0ac85a4c61fa1.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_9-54d1de8958f75f4ff7c2c408836a7324322939198818750bf4e0f451ed648055.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_10-2e6037ed246ae852566e69b39130439fe744b72518e41fe6455078e2405009c9.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_1-b3e8c03f5a322a889f0827004eb34f1cf87351b5f2e16e82392507e36060f141.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_2-76ffe044293f86fc715a5a5ddfb6f5c295902f22f91f584cdfb825854547bdc4.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_3-b0a5bdb37ffc12afdfb897bfde5683f1d7caec3d0068f9dc09e23979f53f7c36.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_4-ec71638f8e4869b462b391712143869cbbfaacd021d4a6bdb8223063f0ee6088.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_5-93bf1809d0bc5a6344959b2482c646bfc8a1f38ecbb4f9dfb48d55f3bcb3f157.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_1-15079b5717524f5cbd1fe547171b365bdd4b6cb9db557f52a00ab16a4c34e65c.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_2-6df8a6cb8f35ef135bfd76fe492c6a76a1862978d31bc21b746dd304e39c0c37.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_6-b04b5fe9608d19dbdb8a120145d1f3b8ebe174a2ac5a78ec2fe512fabfbef04e.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_3-213e9f8a1d93645c77ed8d11ea521b93b0c5943e91b0a09e51f4550f9b9d44cb.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_4-a8c251c4f6c3f65ead854ce3150fffda38dd892beeeb02b406d7c1f11790e17a.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_5-f5451ba6e23f947b3d1259eb3906dea63df3d1321ad279bc0ed68641fcef67b8.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_6-fffdb59a7a203ad61c6013921fd06ddb4d0ad048b702faec16d2b04ac0fffc22.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_7-6511ab68e0f13861c837bb41f91665002004871ca6739691f6a7597470ee5ec6.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_1-1d74d594118da6e08ab5d087ceb6d8ca7619a45a968bd7549077045d4270826e.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_2-6c4dc691b6bed2964db88656c27a97026cfb04bc89d9ff18213fde40b56fbb04.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_3-1dc9a81a8f5d9e9adb365475e51f188c081dec7f50a7cfcd9a18bf07dc96ca19.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_4-f6d2202e591a158d4a0b616eed2d80a23866acf2a2b3d6625f94d351d97ed521.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_5-e693b457363c789d30e7b69b95b727d0f43a34e8055af61614f9bc8c18b9db27.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/assets/Plan6_Abigail/Plan6_6-461099c76f36568d643b39d1a922d180c4fbb7dd1e3e6d1adc727d7665bb030b.jpg" for ::1 at 2015-11-09 13:23:56 -0500
+
+
+Started GET "/images/ajax-loader.gif" for ::1 at 2015-11-09 13:23:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/ajax-loader.gif"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/dwetteroth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (187.2ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (2.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (194.5ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.1ms)
+  Rendered /Users/dwetteroth/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (482.0ms)
+
+
+Started GET "/assets/arrowleftimage.png" for ::1 at 2015-11-09 13:23:57 -0500
+
+
+Started GET "/assets/arrowrightimage.png" for ::1 at 2015-11-09 13:23:57 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_1.jpg" for ::1 at 2015-11-09 13:23:58 -0500
+
+
+Started GET "/assets/Plan4_Charlotte/Plan4_2.jpg" for ::1 at 2015-11-09 13:24:00 -0500
+
+
+Started GET "/assets/Plan5_Aberdeen/Plan5_1.jpg" for ::1 at 2015-11-09 13:24:01 -0500
+
+
+Started GET "/assets/Plan2_Inverness/Plan2_1.jpg" for ::1 at 2015-11-09 13:24:05 -0500
+
+
+Started GET "/assets/Plan3_Lyndhurst/Plan3_1.jpg" for ::1 at 2015-11-09 13:24:09 -0500

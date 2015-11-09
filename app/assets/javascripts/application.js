@@ -59,14 +59,14 @@ var currentSlide6 = 1;
 
     $('.lnk1').on('click', function() {
       $('#largeSlide').modal('show');
-      $('.wplana-main').attr('src','/assets/floorplanabigimage'+currentSlide+'.png');
+      $('.wplana-main').attr('src','/assets/Plan1_Claire/'+currentSlide+'.jpg');
       setTimeout(function(){
         $('.slides1').slick({
           infinite: true,
           slidesToShow: 5,
           slidesToScroll: 1,
-          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:82px;position:absolute;margin-left:-24px;margin-top:0px;background-color:#000;opacity:.5'>",
-          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:80px;position:absolute;margin-left:380px;margin-top:-81px;background-color:#000;opacity:.5'>",
+          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:50px;position:absolute;margin-left:-16px;margin-top:0px;background-color:#000;opacity:.5'>",
+          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:50px;position:absolute;margin-left:380px;margin-top:-49px;background-color:#000;opacity:.5'>",
           mobileFirst: true,
           variableWidth: false
           //initialSlide: parseInt(currentSlide)
@@ -78,14 +78,14 @@ var currentSlide6 = 1;
 
     $('.lnk2').on('click', function() {
       $('#largeSlide2').modal('show');
-      $('.cplanb-main').attr('src','/assets/floorplanbbigimage'+currentSlideB+'.png');
+      $('.cplanb-main').attr('src','/assets/Plan2_Inverness/Plan2_'+currentSlideB+'.jpg');
       setTimeout(function(){
         $('.slides2').slick({
           infinite: true,
           slidesToShow: 5,
           slidesToScroll: 1,
-          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:82px;position:absolute;margin-left:-24px;margin-top:0px;background-color:#000;opacity:.5'>",
-          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:80px;position:absolute;margin-left:380px;margin-top:-81px;background-color:#000;opacity:.5'>",
+          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:50px;position:absolute;margin-left:-16px;margin-top:0px;background-color:#000;opacity:.5'>",
+          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:50px;position:absolute;margin-left:380px;margin-top:-49px;background-color:#000;opacity:.5'>",
           mobileFirst: true,
           variableWidth: false
          // initialSlide: parseInt(currentSlide)
@@ -103,8 +103,8 @@ var currentSlide6 = 1;
           infinite: true,
           slidesToShow: 5,
           slidesToScroll: 1,
-          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:82px;position:absolute;margin-left:-24px;margin-top:0px;background-color:#000;opacity:.5'>",
-          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:80px;position:absolute;margin-left:380px;margin-top:-81px;background-color:#000;opacity:.5'>",
+          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:50px;position:absolute;margin-left:-16px;margin-top:0px;background-color:#000;opacity:.5'>",
+          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:50px;position:absolute;margin-left:380px;margin-top:-49px;background-color:#000;opacity:.5'>",
           mobileFirst: true,
           variableWidth: false
          // initialSlide: parseInt(currentSlide)
@@ -122,8 +122,8 @@ var currentSlide6 = 1;
           infinite: true,
           slidesToShow: 6,
           slidesToScroll: 1,
-          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:82px;position:absolute;margin-left:-24px;margin-top:0px;background-color:#000;opacity:.5'>",
-          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:80px;position:absolute;margin-left:380px;margin-top:-81px;background-color:#000;opacity:.5'>",
+          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:50px;position:absolute;margin-left:-16px;margin-top:0px;background-color:#000;opacity:.5'>",
+          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:50px;position:absolute;margin-left:380px;margin-top:-49px;background-color:#000;opacity:.5'>",
           mobileFirst: true,
           variableWidth: false
          // initialSlide: parseInt(currentSlide)
@@ -140,8 +140,8 @@ var currentSlide6 = 1;
           infinite: true,
           slidesToShow: 5,
           slidesToScroll: 1,
-          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:82px;position:absolute;margin-left:-24px;margin-top:0px;background-color:#000;opacity:.5'>",
-          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:80px;position:absolute;margin-left:380px;margin-top:-81px;background-color:#000;opacity:.5'>",
+          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:50px;position:absolute;margin-left:-16px;margin-top:0px;background-color:#000;opacity:.5'>",
+          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:50px;position:absolute;margin-left:380px;margin-top:-49px;background-color:#000;opacity:.5'>",
           mobileFirst: true,
           variableWidth: false
          // initialSlide: parseInt(currentSlide)
@@ -159,8 +159,8 @@ var currentSlide6 = 1;
           infinite: true,
           slidesToShow: 5,
           slidesToScroll: 1,
-          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:82px;position:absolute;margin-left:-24px;margin-top:0px;background-color:#000;opacity:.5'>",
-          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:80px;position:absolute;margin-left:380px;margin-top:-81px;background-color:#000;opacity:.5'>",
+          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:50px;position:absolute;margin-left:-16px;margin-top:0px;background-color:#000;opacity:.5'>",
+          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:50px;position:absolute;margin-left:380px;margin-top:-49px;background-color:#000;opacity:.5'>",
           mobileFirst: true,
           variableWidth: false
          // initialSlide: parseInt(currentSlide)
