@@ -253,25 +253,45 @@ var currentSlide6 = 1;
       $('.planb-main')[0].src = '/assets/Plan1_Claire/'+rt+'.jpg';
     });
 
+
+
+
+
+
     $('.wlil-plana').on('click', function() {
       // console.log($(this));
       var rt = $(this).attr("id").replace(/\D/g,'');
       $('.wplana-main')[0].src = '/assets/Plan1_Claire/'+rt+'.jpg';
+      if(rt>=6) {
+        $('.wplana-main').addClass('taller-img');
+      } else {
+        $('.wplana-main').removeClass('taller-img');
+      }
     });
 
     $('.clil-planb').on('click', function() {
       
       var rt = $(this).attr("id").replace(/\D/g,'');
-      console.log(rt);
+      
       $('.cplanb-main')[0].src = '/assets/Plan2_Inverness/Plan2_'+rt+'.jpg';
+      if(rt>=7) {
+        $('.cplanb-main').addClass('taller-img');
+      } else {
+        $('.cplanb-main').removeClass('taller-img');
+      }
     });
 
 
     $('.clil-plan3').on('click', function() {
       
       var rt = $(this).attr("id").replace(/\D/g,'');
-      console.log(rt);
+      
       $('.cplan3-main')[0].src = '/assets/Plan3_Lyndhurst/Plan3_'+rt+'.jpg';
+      if(rt>=3) {
+        $('.cplan3-main').addClass('taller-img');
+      } else {
+        $('.cplan3-main').removeClass('taller-img');
+      }
     });
 
     $('.clil-plan4').on('click', function() {
@@ -279,6 +299,11 @@ var currentSlide6 = 1;
       var rt = $(this).attr("id").replace(/\D/g,'');
       console.log(rt);
       $('.cplan4-main')[0].src = '/assets/Plan4_Charlotte/Plan4_'+rt+'.jpg';
+      if(rt>=2) {
+        $('.cplan4-main').addClass('taller-img');
+      } else {
+        $('.cplan4-main').removeClass('taller-img');
+      }
     });
 
     $('.clil-plan5').on('click', function() {
@@ -286,6 +311,11 @@ var currentSlide6 = 1;
       var rt = $(this).attr("id").replace(/\D/g,'');
       console.log(rt);
       $('.cplan5-main')[0].src = '/assets/Plan5_Aberdeen/Plan5_'+rt+'.jpg';
+      if(rt>=3) {
+        $('.cplan5-main').addClass('taller-img');
+      } else {
+        $('.cplan5-main').removeClass('taller-img');
+      }
     });
 
 
@@ -294,6 +324,11 @@ var currentSlide6 = 1;
       var rt = $(this).attr("id").replace(/\D/g,'');
       console.log(rt);
       $('.cplan6-main')[0].src = '/assets/Plan6_Abigail/Plan6_'+rt+'.jpg';
+      if(rt>=2) {
+        $('.cplan6-main').addClass('taller-img');
+      } else {
+        $('.cplan6-main').removeClass('taller-img');
+      }
     });
 
     // $('.plana').on('click', function() {

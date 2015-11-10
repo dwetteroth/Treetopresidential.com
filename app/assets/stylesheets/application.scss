@@ -1111,3 +1111,28 @@ $slick-opacity-not-active: 0.25 !default;
 
 
 
+
+
+.taller-img {
+	height: 780px !important;
+	width: 220% !important;
+}
+
+
+@media only screen and (max-width : 768px) {
+	.taller-img {
+		height: 780px !important;
+		width: 191% !important;
+		max-width: 240% !important;
+		margin-left:-240px !important;
+	}
+}
+@media only screen and (width:1024px) {
+	.taller-img {
+		height: 780px !important;
+		width: 191% !important;
+		max-width: 240% !important;
+		margin-left:-140px !important;
+	}	
+}
+
