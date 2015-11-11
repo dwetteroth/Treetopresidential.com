@@ -59,21 +59,22 @@ var currentSlide6 = 1;
 
     $('.lnk1').on('click', function() {
       $('#largeSlide').modal('show');
-      $('.wplana-main').attr('src','/assets/Plan1_Claire/'+currentSlide+'.jpg');
+      $('.wplana-main').attr('src','/assets/Plan1_Claire/Plan1_'+currentSlide+'.jpg');
       setTimeout(function(){
         $('.slides1').slick({
           infinite: true,
           slidesToShow: 5,
           slidesToScroll: 1,
-          prevArrow:"<img src='/assets/arrowleftimage.png' style='height:50px;position:absolute;margin-left:-16px;margin-top:0px;background-color:#000;opacity:.5'>",
-          nextArrow:"<img src='/assets/arrowrightimage.png' style='height:50px;position:absolute;margin-left:380px;margin-top:-49px;background-color:#000;opacity:.5'>",
+          prevArrow:"<img src='/assets/arrowleftimage.png' class='prevSlick' style='height:50px;position:absolute;margin-left:-16px;margin-top:0px;background-color:#000;opacity:.5'>",
+          nextArrow:"<img src='/assets/arrowrightimage.png' class='nextSlick' style='height:50px;position:absolute;margin-left:380px;margin-top:-49px;background-color:#000;opacity:.5'>",
           mobileFirst: true,
           variableWidth: false
-          //initialSlide: parseInt(currentSlide)
-          //focusOnSelect: true
+          
         });  
       },200);      
     });
+
+
 
 
     $('.lnk2').on('click', function() {
@@ -255,13 +256,34 @@ var currentSlide6 = 1;
 
 
 
-
+    $('.over-prev1').on('click',function() {
+      $('.slides1').slick("slickPrev");
+      //$('.wlil-plana').click();
+      if($('.slides1').slick('slickCurrentSlide')==0) {
+        main = $('.slides1').slick('slickCurrentSlide')+1
+        $('.wplana-main')[0].src = '/assets/Plan1_Claire/Plan1_'+main+'.jpg'; 
+      } else {
+        $('.wplana-main')[0].src = '/assets/Plan1_Claire/Plan1_'+$('.slides1').slick('slickCurrentSlide')+'.jpg';   
+      }
+    });
+    $('.over-next1').on('click',function() {
+      $('.slides1').slick("slickNext");
+      if($('.slides1').slick('slickCurrentSlide')==0) {
+        main = $('.slides1').slick('slickCurrentSlide')+1
+        $('.wplana-main')[0].src = '/assets/Plan1_Claire/Plan1_'+main+'.jpg'; 
+      } else {
+        $('.wplana-main')[0].src = '/assets/Plan1_Claire/Plan1_'+$('.slides1').slick('slickCurrentSlide')+'.jpg';   
+      }
+      
+      console.log($('.slides1').slick('slickCurrentSlide'));
+      //$('.wlil-plana').click();
+    });
 
 
     $('.wlil-plana').on('click', function() {
-      // console.log($(this));
-      var rt = $(this).attr("id").replace(/\D/g,'');
-      $('.wplana-main')[0].src = '/assets/Plan1_Claire/'+rt+'.jpg';
+      
+      var rt = $(this).data("id").replace(/\D/g,'');
+      $('.wplana-main')[0].src = '/assets/Plan1_Claire/Plan1_'+rt+'.jpg';
       if(rt>=6) {
         $('.wplana-main').addClass('taller-img');
       } else {
@@ -271,7 +293,7 @@ var currentSlide6 = 1;
 
     $('.clil-planb').on('click', function() {
       
-      var rt = $(this).attr("id").replace(/\D/g,'');
+      var rt = $(this).data("id").replace(/\D/g,'');
       
       $('.cplanb-main')[0].src = '/assets/Plan2_Inverness/Plan2_'+rt+'.jpg';
       if(rt>=7) {

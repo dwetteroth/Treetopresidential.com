@@ -1114,25 +1114,63 @@ $slick-opacity-not-active: 0.25 !default;
 
 
 .taller-img {
-	height: 780px !important;
-	width: 220% !important;
+	//height: 780px !important;
+	// width: 220% !important;
 }
 
+.nextSlick {
+	height: 70px !important;
+	margin-top: -76px !important;
+}
+.prevSlick {
+	height: 70px !important;
+	margin-left: -21px !important;
+}
 
 @media only screen and (max-width : 768px) {
-	.taller-img {
-		height: 780px !important;
-		width: 191% !important;
-		max-width: 240% !important;
-		margin-left:-240px !important;
+	// .taller-img {
+	// 	height: 780px !important;
+	// 	width: 191% !important;
+	// 	max-width: 240% !important;
+	// 	margin-left:-240px !important;
+	// }
+	.over-prev1 {
+		margin-left: -95px !important;
+	}
+	.over-next1 {
+		margin-left: 595px !important;
+	}
+	.nextSlick {
+		height: 120px !important;
+		margin-left: 600px !important;
+		margin-top: -120px !important;
+		opacity: .8 !important;
+	}
+	.prevSlick {
+		height: 120px !important;
+		margin-left: -35px !important;
+		margin-top: 0px !important;
+		opacity: .8 !important;
+	}
+	.close-modal {
+		margin-top: -940px !important
 	}
 }
 @media only screen and (width:1024px) {
-	.taller-img {
-		height: 780px !important;
-		width: 191% !important;
-		max-width: 240% !important;
-		margin-left:-140px !important;
-	}	
+	// .taller-img {
+	// 	height: 780px !important;
+	// 	width: 191% !important;
+	// 	max-width: 240% !important;
+	// 	margin-left:-140px !important;
+	// }	
+	.nextSlick {
+		height: 70px !important;
+		margin-top: -76px !important;
+
+	}
+	.prevSlick {
+		height: 70px !important;
+		margin-left: -20px !important;		
+	}
 }
 
