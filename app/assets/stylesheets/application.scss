@@ -1119,12 +1119,16 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .nextSlick {
-	height: 70px !important;
+	height: 50px !important;
 	margin-top: -76px !important;
 }
 .prevSlick {
-	height: 70px !important;
-	margin-left: -21px !important;
+	height: 50px !important;
+	margin-left: -16px !important;
+}
+
+.move-up {
+	margin-top: -20px !important;
 }
 
 @media only screen and (max-width : 768px) {
