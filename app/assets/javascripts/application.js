@@ -255,7 +255,7 @@ var currentSlide6 = 1;
     });
 
 
-
+    // Main slide 1
     $('.over-prev1').on('click',function() {
       $('.slides1').slick("slickPrev");
       //$('.wlil-plana').click();
@@ -278,6 +278,135 @@ var currentSlide6 = 1;
       console.log($('.slides1').slick('slickCurrentSlide'));
       //$('.wlil-plana').click();
     });
+
+
+    // Main slide 2
+    $('.over-prev2').on('click',function() {
+      $('.slides2').slick("slickPrev");
+      //$('.wlil-plana').click();
+      if($('.slides2').slick('slickCurrentSlide')==0) {
+        main = $('.slides2').slick('slickCurrentSlide')+1
+        $('.cplanb-main')[0].src = '/assets/Plan2_Inverness/Plan2_'+main+'.jpg'; 
+      } else {
+        $('.cplanb-main')[0].src = '/assets/Plan2_Inverness/Plan2_'+$('.slides2').slick('slickCurrentSlide')+'.jpg';   
+      }
+    });
+    $('.over-next2').on('click',function() {
+      $('.slides2').slick("slickNext");
+      if($('.slides2').slick('slickCurrentSlide')==0) {
+        main = $('.slides2').slick('slickCurrentSlide')+1
+        $('.cplanb-main')[0].src = '/assets/Plan2_Inverness/Plan2_'+main+'.jpg'; 
+      } else {
+        $('.cplanb-main')[0].src = '/assets/Plan2_Inverness/Plan2_'+$('.slides2').slick('slickCurrentSlide')+'.jpg';   
+      }
+      
+      console.log($('.slides2').slick('slickCurrentSlide'));
+      
+    });
+
+
+    // Main slide 3
+    $('.over-prev3').on('click',function() {
+      $('.slides3').slick("slickPrev");
+      //$('.wlil-plana').click();
+      if($('.slides3').slick('slickCurrentSlide')==0) {
+        main = $('.slides3').slick('slickCurrentSlide')+1
+        $('.cplan3-main')[0].src = '/assets/Plan3_Lyndhurst/Plan3_'+main+'.jpg'; 
+      } else {
+        $('.cplan3-main')[0].src = '/assets/Plan3_Lyndhurst/Plan3_'+$('.slides3').slick('slickCurrentSlide')+'.jpg';   
+      }
+    });
+    $('.over-next3').on('click',function() {
+      $('.slides3').slick("slickNext");
+      if($('.slides3').slick('slickCurrentSlide')==0) {
+        main = $('.slides3').slick('slickCurrentSlide')+1
+        $('.cplan3-main')[0].src = '/assets/Plan3_Lyndhurst/Plan3_'+main+'.jpg'; 
+      } else {
+        $('.cplan3-main')[0].src = '/assets/Plan3_Lyndhurst/Plan3_'+$('.slides3').slick('slickCurrentSlide')+'.jpg';   
+      }
+      
+      console.log($('.slides2').slick('slickCurrentSlide'));
+      
+    });
+
+
+
+
+    // Main slide 4
+    $('.over-prev4').on('click',function() {
+      $('.slides4').slick("slickPrev");
+      //$('.wlil-plana').click();
+      if($('.slides4').slick('slickCurrentSlide')==0) {
+        main = $('.slides4').slick('slickCurrentSlide')+1
+        $('.cplan4-main')[0].src = '/assets/Plan4_Charlotte/Plan4_'+main+'.jpg'; 
+      } else {
+        $('.cplan4-main')[0].src = '/assets/Plan4_Charlotte/Plan4_'+$('.slides4').slick('slickCurrentSlide')+'.jpg';   
+      }
+    });
+    $('.over-next4').on('click',function() {
+      $('.slides4').slick("slickNext");
+      if($('.slides4').slick('slickCurrentSlide')==0) {
+        main = $('.slides4').slick('slickCurrentSlide')+1
+        $('.cplan4-main')[0].src = '/assets/Plan4_Charlotte/Plan4_'+main+'.jpg'; 
+      } else {
+        $('.cplan4-main')[0].src = '/assets/Plan4_Charlotte/Plan4_'+$('.slides4').slick('slickCurrentSlide')+'.jpg';   
+      }
+      
+      console.log($('.slides2').slick('slickCurrentSlide'));
+      
+    });
+
+
+    // Main slide 5
+    $('.over-prev5').on('click',function() {
+      $('.slides5').slick("slickPrev");
+      //$('.wlil-plana').click();
+      if($('.slides5').slick('slickCurrentSlide')==0) {
+        main = $('.slides5').slick('slickCurrentSlide')+1
+        $('.cplan5-main')[0].src = '/assets/Plan5_Aberdeen/Plan5_'+main+'.jpg'; 
+      } else {
+        $('.cplan5-main')[0].src = '/assets/Plan5_Aberdeen/Plan5_'+$('.slides5').slick('slickCurrentSlide')+'.jpg';   
+      }
+    });
+    $('.over-next5').on('click',function() {
+      $('.slides5').slick("slickNext");
+      if($('.slides5').slick('slickCurrentSlide')==0) {
+        main = $('.slides5').slick('slickCurrentSlide')+1
+        $('.cplan5-main')[0].src = '/assets/Plan5_Aberdeen/Plan5_'+main+'.jpg'; 
+      } else {
+        $('.cplan5-main')[0].src = '/assets/Plan5_Aberdeen/Plan4_'+$('.slides5').slick('slickCurrentSlide')+'.jpg';   
+      }
+      
+      console.log($('.slides2').slick('slickCurrentSlide'));
+      
+    });
+
+
+    // Main slide 6
+    $('.over-prev6').on('click',function() {
+      $('.slides6').slick("slickPrev");
+      //$('.wlil-plana').click();
+      if($('.slides6').slick('slickCurrentSlide')==0) {
+        main = $('.slides6').slick('slickCurrentSlide')+1
+        $('.cplan6-main')[0].src = '/assets/Plan6_Abigail/Plan6_'+main+'.jpg'; 
+      } else {
+        $('.cplan6-main')[0].src = '/assets/Plan6_Abigail/Plan6_'+$('.slides6').slick('slickCurrentSlide')+'.jpg';   
+      }
+    });
+    $('.over-next6').on('click',function() {
+      $('.slides6').slick("slickNext");
+      if($('.slides6').slick('slickCurrentSlide')==0) {
+        main = $('.slides6').slick('slickCurrentSlide')+1
+        $('.cplan6-main')[0].src = '/assets/Plan6_Abigail/Plan6_'+main+'.jpg'; 
+      } else {
+        $('.cplan6-main')[0].src = '/assets/Plan6_Abigail/Plan6_'+$('.slides6').slick('slickCurrentSlide')+'.jpg';   
+      }
+      
+      console.log($('.slides2').slick('slickCurrentSlide'));
+      
+    });
+
+
 
 
     $('.wlil-plana').on('click', function() {
