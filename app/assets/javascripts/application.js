@@ -121,7 +121,7 @@ var currentSlide6 = 1;
       setTimeout(function(){
         $('.slides4').slick({
           infinite: true,
-          slidesToShow: 6,
+          slidesToShow: 4,
           slidesToScroll: 1,
           prevArrow:"<img src='/assets/arrowleftimage.png' style='height:50px;position:absolute;margin-left:-16px;margin-top:0px;background-color:#000;opacity:.5'>",
           nextArrow:"<img src='/assets/arrowrightimage.png' style='height:50px;position:absolute;margin-left:380px;margin-top:-49px;background-color:#000;opacity:.5'>",
@@ -374,7 +374,7 @@ var currentSlide6 = 1;
         main = $('.slides5').slick('slickCurrentSlide')+1
         $('.cplan5-main')[0].src = '/assets/Plan5_Aberdeen/Plan5_'+main+'.jpg'; 
       } else {
-        $('.cplan5-main')[0].src = '/assets/Plan5_Aberdeen/Plan4_'+$('.slides5').slick('slickCurrentSlide')+'.jpg';   
+        $('.cplan5-main')[0].src = '/assets/Plan5_Aberdeen/Plan5_'+$('.slides5').slick('slickCurrentSlide')+'.jpg';   
       }
       
       console.log($('.slides2').slick('slickCurrentSlide'));
