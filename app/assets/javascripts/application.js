@@ -52,8 +52,9 @@ var currentSlide6 = 1;
 
 
   $('.close-modal').on('click', function() {
-    $('#largeSlide').modal('hide');
-    $('#largeSlide2').modal('hide');
+    // $('#largeSlide').modal('hide');
+    // $('#largeSlide2').modal('hide');
+    $('.modal').modal('hide');
   });
 
 
