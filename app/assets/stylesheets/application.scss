@@ -182,7 +182,7 @@ body {
 	.header-phone {
 		margin-top: 15px;
 		margin-bottom: 5px;
-		margin-left: -30px;
+		margin-left: 58px;
 		font-size:14px;
 		font-weight:700;
 		display:inline-block;
@@ -1116,6 +1116,10 @@ $slick-opacity-not-active: 0.25 !default;
 .taller-img {
 	//height: 780px !important;
 	// width: 220% !important;
+}
+
+.hidden {
+	visibility: hidden;
 }
 
 .nextSlick {
